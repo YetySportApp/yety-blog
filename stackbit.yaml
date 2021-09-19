@@ -374,7 +374,8 @@ models:
         type: list
         items:
           type: reference
-          models: []
+          models:
+            - tag
         label: Tags
         description: The tags of the post
   section:
