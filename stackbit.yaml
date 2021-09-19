@@ -926,4 +926,4 @@ models:
               label: Relative Url
   tag:
     type: data
-    label: tag
+    label: Tag
