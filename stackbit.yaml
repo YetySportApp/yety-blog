@@ -929,5 +929,5 @@ models:
     label: Tag
     folder: tags
     fields:
-      - name: ''
+      - name: ID
         type: string
