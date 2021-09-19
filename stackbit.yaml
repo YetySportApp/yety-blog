@@ -932,3 +932,5 @@ models:
       - name: ID
         type: string
         label: ID
+        description: A unique identifier used when filtering posts, e.g. "jamstack"
+        required: true
