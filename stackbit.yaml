@@ -938,3 +938,5 @@ models:
         type: string
         label: Link
         description: The link to the tag page, e.g. "blog/tag/jamstack"
+      - name: ''
+        type: string
