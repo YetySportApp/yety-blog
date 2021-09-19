@@ -8,7 +8,7 @@ import pageLayouts from '../layouts';
 class Page extends React.Component {
     render() {
         const modelName = _.get(this.props, 'page.__metadata.modelName');
-        const PageLayout = pageLayouts[modelName];
+        const PageLayout = pageLayouts['blog'];
         if (!PageLayout) {
             throw new Error(`no page layout matching the page model: ${modelName}`);
         }
