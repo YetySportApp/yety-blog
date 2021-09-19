@@ -371,7 +371,9 @@ models:
           - stackbit_page_meta
         label: Seo
       - name: tags
-        type: string
+        type: list
+        items:
+          type: string
   section:
     type: object
     label: Section
