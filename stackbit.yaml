@@ -924,3 +924,6 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
+  tag:
+    type: data
+    label: tag
