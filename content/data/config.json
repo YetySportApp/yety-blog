@@ -14,8 +14,8 @@
                 "style": "link"
             },
             {
-                "label": "Blog",
-                "url": "/",
+                "label": "Esperienze",
+                "url": "https://www.yety.it/ricerca",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
@@ -24,8 +24,8 @@
                 "no_follow": false
             },
             {
-                "label": "Esperienze",
-                "url": "https://www.yety.it/ricerca",
+                "label": "Blog",
+                "url": "/",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
