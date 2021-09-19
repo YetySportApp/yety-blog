@@ -34,7 +34,7 @@ jobs:
 
             - name: Push the Docker image ${{ steps.extract_branch.outputs.branch }}
               if: success()
-              run: docker push lorddex/hyety:admin-${{ steps.extract_branch.outputs.branch }}-latest
+              run: docker push lorddex/hyety:blog-${{ steps.extract_branch.outputs.branch }}-latest
 
             - name: Install doctl
               uses: digitalocean/action-doctl@v2
