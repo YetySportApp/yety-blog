@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import { Img } from '@chakra-ui/react';
 import { Link, withPrefix } from '../utils';
 
 const Logo = ({ config }) => {
@@ -9,7 +10,7 @@ const Logo = ({ config }) => {
 
     return (
         <Link href={withPrefix('/')}>
-            <img src={withPrefix(logoImage)} alt={logoImageAlt} />
+            <Img w="150px" h="50px" objectFit="contain" src={logoImage} alt={logoImageAlt} _hover={{ cursor: 'pointer' }} />
         </Link>
     );
 };
