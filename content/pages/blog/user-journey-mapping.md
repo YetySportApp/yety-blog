@@ -26,7 +26,7 @@ seo:
       value: A tale about Journey Mapping
       keyName: property
     - name: 'og:image'
-      value: images/10.jpg
+      value: /images/1.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
