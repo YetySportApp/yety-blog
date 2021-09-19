@@ -370,8 +370,6 @@ models:
         models:
           - stackbit_page_meta
         label: Seo
-      - name: tags
-        type: string
   section:
     type: object
     label: Section
