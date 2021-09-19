@@ -931,3 +931,4 @@ models:
     fields:
       - name: ID
         type: string
+        label: ID
