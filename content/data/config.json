@@ -12,11 +12,6 @@
                 "label": "Home",
                 "url": "/",
                 "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
             }
         ]
     },
