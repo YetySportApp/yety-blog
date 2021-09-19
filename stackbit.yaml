@@ -934,5 +934,5 @@ models:
         label: ID
         description: A unique identifier used when filtering posts, e.g. "jamstack"
         required: true
-      - name: ''
+      - name: link
         type: string
