@@ -375,6 +375,7 @@ models:
         items:
           type: string
         label: Tags
+        description: The tags of the post
   section:
     type: object
     label: Section
