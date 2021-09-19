@@ -30,7 +30,7 @@ jobs:
             - name: Build the Docker image
               if: success()
               id: docker_build
-              run: docker build . --file Dockerfile.${{ steps.extract_branch.outputs.branch }} --tag lorddex/hyety:blog-${{ steps.extract_branch.outputs.branch }}-latest
+              run: docker build . --file Dockerfile --tag lorddex/hyety:blog-${{ steps.extract_branch.outputs.branch }}-latest
 
             - name: Push the Docker image ${{ steps.extract_branch.outputs.branch }}
               if: success()
