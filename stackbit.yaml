@@ -373,7 +373,8 @@ models:
       - name: tags
         type: list
         items:
-          type: string
+          type: reference
+          models: []
         label: Tags
         description: The tags of the post
   section:
