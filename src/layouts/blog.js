@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import { Button } from '@chakra-ui/react';
 
 import { Layout } from '../components';
 import { Link, getPageUrl, withPrefix } from '../utils';
@@ -15,6 +16,7 @@ export default class Blog extends React.Component {
 
         return (
             <article key={index} className="cell post">
+                <Button>OK</Button>
                 <div className="card">
                     {thumbImage && (
                         <Link className="post-thumbnail" href={postUrl}>
