@@ -927,3 +927,7 @@ models:
   tag:
     type: data
     label: Tag
+    folder: tags
+    fields:
+      - name: ''
+        type: string
