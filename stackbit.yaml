@@ -940,3 +940,4 @@ models:
         description: The link to the tag page, e.g. "blog/tag/jamstack"
       - name: title
         type: string
+        label: Title
