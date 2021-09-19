@@ -1,7 +1,7 @@
 FROM node:14 as dependencies
 WORKDIR /app
 COPY package.json ./
-RUN npm run install --frozen-lockfile
+RUN npm run install 
 
 FROM node:14 as builder
 WORKDIR /app
