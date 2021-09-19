@@ -374,6 +374,7 @@ models:
         type: list
         items:
           type: string
+        label: Tags
   section:
     type: object
     label: Section
