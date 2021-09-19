@@ -42,17 +42,17 @@ jobs:
                   token: ${{ secrets.DIGITALOCEAN_TOKEN }}
 
             - name: Configure kubectl DEV
-              if: github.ref == 'refs/heads/develop'
+              if: github.ref == 'refs/heads/preview'
               run: |
                   doctl kubernetes cluster kubeconfig save hyety-k8s-cluster
 
             - name: Rollout DEV
-              if: github.ref == 'refs/heads/develop'
+              if: github.ref == 'refs/heads/preview'
               run: |
                   kubectl --namespace hyety-dev rollout restart deployments
 
             - name: Remove kubectl conf DEV
-              if: github.ref == 'refs/heads/develop'
+              if: github.ref == 'refs/heads/preview'
               run: |
                   doctl kubernetes cluster kubeconfig remove hyety-k8s-cluster
 
