@@ -378,6 +378,7 @@ models:
             - tag
         label: Tags
         description: The tags of the post
+    folder: blog
   section:
     type: object
     label: Section
