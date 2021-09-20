@@ -20,7 +20,6 @@ const Header = ({ page, config }) => {
     const logoImageAlt = _.get(header, 'logo_img_alt');
     const pageTemplate = _.get(page, 'template');
     const pageUrl = _.trim(getPageUrl(page), '/');
-    console.log(navLinks, hasNav);
 
     return (
         <Box pos="sticky" top="0" zIndex={1000} shadow="small">

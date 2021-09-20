@@ -16,7 +16,7 @@ const ListHeader = ({ children }) => {
 
 export default function LargeWithLogoLeft({ config }) {
     const footer = _.get(config, 'footer');
-    console.log(footer);
+
     return (
         <Box bg="dark" color={useColorModeValue('gray.600', 'white')}>
             <Container as={Stack} maxW={'6xl'} py={10}>

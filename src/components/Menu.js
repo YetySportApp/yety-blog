@@ -4,7 +4,6 @@ import { Link } from '../utils';
 import _ from 'lodash';
 
 const Menu = ({ navLinks, pageUrl }) => {
-    console.log(navLinks);
     return (
         <Stack direction={'row'} spacing={{ lg: 2, xl: 4 }}>
             {navLinks &&
