@@ -271,7 +271,6 @@ models:
         models:
           - stackbit_page_meta
         label: Seo
-    folder: landing
   blog:
     type: page
     urlPath: /blog
