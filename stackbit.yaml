@@ -325,7 +325,6 @@ models:
     urlPath: /blog/{slug}
     label: Post
     layout: post
-    folder: blog
     fields:
       - type: string
         name: title
