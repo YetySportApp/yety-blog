@@ -277,7 +277,7 @@ models:
     urlPath: /blog
     label: Blog
     layout: blog
-    file: blog/index.md
+    file: index.md
     hideContent: true
     singleInstance: true
     fields:
