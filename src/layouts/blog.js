@@ -49,7 +49,7 @@ export default class Blog extends React.Component {
 
         return (
             <Layout page={page} config={config}>
-                <Container maxW="100%" h="auto" minH="100vh" p={8}>
+                <Container maxW="container.xl" h="auto" minH="100vh" p={8}>
                     <PostList posts={posts} data={data} />
                 </Container>
                 {/* <div className="outer">

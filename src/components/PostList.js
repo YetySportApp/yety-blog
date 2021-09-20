@@ -9,7 +9,7 @@ const PostList = ({ posts, data }) => {
         <>
             <Grid templateColumns={{ md: '1fr', lg: '1fr 0.3fr' }} gap={6}>
                 <Grid templateColumns="repeat(1, 1fr)" gap={10}>
-                    <Heading fontSize="xx-large">Articoli</Heading>
+                    <Heading fontSize="x-large">Blog</Heading>
                     {posts.map((post, index) => {
                         const postAuthorRef = _.get(post, 'author');
                         const author = postAuthorRef ? getData(data, postAuthorRef) : null;
