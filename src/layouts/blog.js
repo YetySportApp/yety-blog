@@ -4,6 +4,8 @@ import _ from 'lodash';
 import { Layout } from '../components';
 import { Link, getPageUrl, withPrefix } from '../utils';
 import BlogPostFooter from '../components/BlogPostFooter';
+import { Container } from '@chakra-ui/react';
+import PostList from '../components/PostList';
 
 export default class Blog extends React.Component {
     renderPost(post, index, data) {
@@ -44,13 +46,17 @@ export default class Blog extends React.Component {
         const data = _.get(this.props, 'data');
         const config = _.get(this.props, 'data.config');
         const posts = _.orderBy(_.get(this.props, 'posts', []), 'date', 'desc');
+
         return (
             <Layout page={page} config={config}>
-                <div className="outer">
+                <Container maxW="100%" h="auto" minH="100vh" p={8}>
+                    <PostList posts={posts} data={data} />
+                </Container>
+                {/* <div className="outer">
                     <div className="inner">
                         <div className="grid post-feed">{_.map(posts, (post, index) => this.renderPost(post, index, data))}</div>
                     </div>
-                </div>
+                </div> */}
             </Layout>
         );
     }
