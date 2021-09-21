@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
-import { Heading, Link } from '@chakra-ui/react';
+import { Heading, Link, chakra } from '@chakra-ui/react';
 
 const htmlToChakra = (html) => {
     if (!html) {

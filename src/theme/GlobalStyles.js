@@ -19,6 +19,9 @@ const GlobalStyle = () => {
                     background-color: rgba(54, 176, 201, 0.5);
                     outline: 1px solid #5fbed1;
                 }
+                .postDetails p {
+                    padding: 5px 0;
+                }
             `}
         />
     );

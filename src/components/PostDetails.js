@@ -21,7 +21,7 @@ const PostDetails = ({ post, data }) => {
     const tags = tagsRef ? tagsRef.map((t) => getData(data, t)) : [];
     const postAuthorRef = _.get(post, 'author');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
-    console.log(author);
+    console.log(marked(markdownContent));
     useEffect(() => {
         if (Router.query && window !== 'undefined') {
             setUrl(window.location.href);
@@ -29,7 +29,7 @@ const PostDetails = ({ post, data }) => {
     }, [Router]);
 
     return (
-        <>
+        <div className="postDetails">
             <Heading as="h6" fontSize="md" fontWeight="medium" display="flex" alignItems="center" onClick={() => Router.back()} _hover={{ cursor: 'pointer' }}>
                 <Icon as={FiArrowLeft} mr="10px" />
                 Torna indietro
@@ -39,7 +39,7 @@ const PostDetails = ({ post, data }) => {
                 {title}
             </Heading>
             {subtitle && (
-                <Heading as={'h5'} fontSize="large" px={5} color="gray.500">
+                <Heading as={'h5'} fontSize="large" px={5} color="gray.600">
                     {subtitle}
                 </Heading>
             )}
@@ -60,15 +60,17 @@ const PostDetails = ({ post, data }) => {
                 </HStack>
             </Box>
             {image && (
-                <Box p={5}>
-                    <img src={withPrefix(image)} alt={imageAlt} style={{ maxHeight: '300px', objectFit: 'cover', width: '100%' }} />
+                <Box p={5} mt="10px">
+                    <img src={withPrefix(image)} alt={imageAlt} style={{ maxHeight: '500px', objectFit: 'contain', width: '100%' }} />
                 </Box>
             )}
+
             {markdownContent && <Box p={5}>{htmlToChakra(marked(markdownContent))}</Box>}
+
             <Divider my="5" />
             <Flex alignItems="center" pb="10">
                 <Box px={5} flex={1} d="flex" alignItems="center">
-                    <Avatar size="lg" src={`${author.photo}`} alt={`${author.first_name}`} />
+                    <Avatar bg="transparent" size="lg" src={`${author.photo}`} alt={`${author.first_name}`} />
                     <VStack ml="10px" justifyItems="start" textAlign="start">
                         <Heading fontWeight="semibold" fontSize="medium" color={'gray.400'}>
                             Autore
@@ -87,7 +89,7 @@ const PostDetails = ({ post, data }) => {
                     </a>
                 </HStack>
             </Flex>
-        </>
+        </div>
     );
 };
 
