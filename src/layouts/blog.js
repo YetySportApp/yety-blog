@@ -1,9 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-
 import { Layout } from '../components';
-import { Link, getPageUrl, withPrefix } from '../utils';
-import BlogPostFooter from '../components/BlogPostFooter';
 import { Container } from '@chakra-ui/react';
 import PostList from '../components/PostList';
 

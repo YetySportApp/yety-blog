@@ -3,7 +3,7 @@ name: Build image and deploy
 on:
     push:
         branches:
-            - preview
+            - develop
             - master
 
 jobs:
@@ -42,17 +42,17 @@ jobs:
                   token: ${{ secrets.DIGITALOCEAN_TOKEN }}
 
             - name: Configure kubectl DEV
-              if: github.ref == 'refs/heads/preview'
+              if: github.ref == 'refs/heads/develop'
               run: |
                   doctl kubernetes cluster kubeconfig save hyety-k8s-cluster
 
             - name: Rollout DEV
-              if: github.ref == 'refs/heads/preview'
+              if: github.ref == 'refs/heads/develop'
               run: |
                   kubectl --namespace hyety-dev rollout restart deployments
 
             - name: Remove kubectl conf DEV
-              if: github.ref == 'refs/heads/preview'
+              if: github.ref == 'refs/heads/develop'
               run: |
                   doctl kubernetes cluster kubeconfig remove hyety-k8s-cluster
 

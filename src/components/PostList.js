@@ -7,7 +7,7 @@ import { getData } from '../utils';
 const PostList = ({ posts, data }) => {
     return (
         <>
-            <Grid templateColumns={{ md: '1fr', lg: '1fr 0.3fr' }} gap={6}>
+            <Grid templateColumns={{ md: '1fr', lg: '1fr' }} gap={6}>
                 <Grid templateColumns="repeat(1, 1fr)" gap={10}>
                     <Heading fontSize="x-large">Blog</Heading>
                     {posts.map((post, index) => {
@@ -16,8 +16,6 @@ const PostList = ({ posts, data }) => {
                         return <PostCard key={index} post={post} author={author} />;
                     })}
                 </Grid>
-
-                <Box w="100%" h="10" bg="white.500" />
             </Grid>
         </>
     );
