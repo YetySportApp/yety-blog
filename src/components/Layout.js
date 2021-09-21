@@ -5,7 +5,6 @@ import _ from 'lodash';
 
 import { withPrefix, classNames } from '../utils';
 import Header from './Header';
-import Header2 from './Header2';
 import Footer from './Footer';
 
 export default class Body extends React.Component {
@@ -104,7 +103,7 @@ export default class Body extends React.Component {
                     <body className={classNames(`palette-${palette}`, `font-${font}`)} />
                 </Helmet>
                 <div id="page" className="site">
-                    <Header2 page={page} config={config} />
+                    <Header page={page} config={config} />
                     <main id="content" className="site-content">
                         {this.props.children}
                     </main>
