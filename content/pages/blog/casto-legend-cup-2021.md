@@ -16,6 +16,7 @@ seo:
   extra: []
 tags:
   - content/data/tags/tag-5ysizk17y.json
+  - content/data/tags/tag-351chlo6b.json
 layout: post
 author: content/data/authors/jane-doe.yaml
 ---
