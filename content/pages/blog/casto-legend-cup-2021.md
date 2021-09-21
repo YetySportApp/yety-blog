@@ -32,4 +32,4 @@ Possono partecipare tutti i cittadini italiani e stranieri, d'ambo i sessi, dai 
 
 I bikers delle categorie juniores e juniores sport (17-18 anni) potranno partecipare unicamente al percorso **Granfondo**.
 
-Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione esclusivamente richiedendo tramite e-mail all'indirizzo \[asdcicloclubspongano@gmail.com]\(mailto:asdcicloclubspongano@gmail.com) l'emissione di una tessera giornaliera FCI al costo di **€ 10,00**.
+Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione esclusivamente richiedendo tramite e-mail all'indirizzo (mailto:asdcicloclubspongano@gmail.com) l'emissione di una tessera giornaliera FCI al costo di **€ 10,00**.
