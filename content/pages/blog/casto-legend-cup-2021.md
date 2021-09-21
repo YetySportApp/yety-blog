@@ -25,7 +25,3 @@ author: content/data/authors/person-jb701yh3t.json
 
 ###### 4° EDIZIONE - 10 Ottobre 2021
 
-
-
-*   Lorem ipsum
-*   dolor sit amet
