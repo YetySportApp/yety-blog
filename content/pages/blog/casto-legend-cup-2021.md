@@ -14,7 +14,8 @@ seo:
   description: ''
   robots: []
   extra: []
-tags: []
+tags:
+  - content/data/tags/tag-5ysizk17y.json
 layout: post
 author: content/data/authors/jane-doe.yaml
 ---
