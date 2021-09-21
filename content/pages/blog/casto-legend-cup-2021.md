@@ -12,6 +12,7 @@ seo:
   extra: []
 tags: []
 layout: post
+author: content/data/authors/jane-doe.yaml
 ---
 ## Lorem ipsum
 
