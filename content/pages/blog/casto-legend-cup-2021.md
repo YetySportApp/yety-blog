@@ -1,6 +1,6 @@
 ---
 title: Castro Legend Cup 2021
-subtitle: lorem-ipsum
+subtitle: MTB Marathon
 date: '2021-09-21'
 excerpt: lorem-ipsum
 image_alt: lorem-ipsum
