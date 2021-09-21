@@ -19,7 +19,6 @@ tags:
   - content/data/tags/tag-351chlo6b.json
   - content/data/tags/tag-rkwiw3adc.json
 layout: post
-author: content/data/authors/jane-doe.yaml
 ---
 ## CASTRO LEGEND CUP – MTB MARATHON
 
