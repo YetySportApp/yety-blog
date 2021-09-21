@@ -16,7 +16,7 @@ class Post extends React.Component {
         return (
             <Layout page={page} config={config}>
                 <Container maxW="container.xl" h="auto" minH="100vh" p={8}>
-                    <PostDetails post={page} />
+                    <PostDetails post={page} data={data} />
                     {/* <button onClick={() => Router.back()}>as</button>
                     <div className="outer">
                         <div className="inner-medium">

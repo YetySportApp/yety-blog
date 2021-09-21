@@ -6,7 +6,6 @@ import { getPageUrl } from '../utils';
 
 const PostCard = ({ post, author }) => {
     const postUrl = getPageUrl(post, { withPrefix: true });
-    console.log(author);
 
     return (
         <Box bg={'white'} display={{ md: 'flex' }} maxW={{ lg: '5xl' }} shadow="md" rounded={{ lg: 'lg' }}>
