@@ -26,3 +26,11 @@ image: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
 
 ###### 4° EDIZIONE - 10 Ottobre 2021
 
+#### Come partecipare?
+
+Possono partecipare tutti i cittadini italiani e stranieri, d'ambo i sessi, dai 19 anni in su, categorie agonistische e amatoriali tesserati alla FCI o Federazione straniera aderente, all' U.C.I. o ad Ente di promozione sportiva riconosciuto dalla Consulta Nazionale del Ciclismo.
+
+I bikers delle categorie juniores e juniores sport (17-18 anni) potranno partecipare unicamente al percorso **Granfondo**.
+
+Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione esclusivamente richiedendo tramite e-mail all'indirizzo \[mailto:asdcicloclubspongano@gmail.com] l'emissione di una tessera giornaliera FCI al costo di **€ 10,00**.
+
