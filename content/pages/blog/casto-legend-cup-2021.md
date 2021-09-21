@@ -21,9 +21,11 @@ tags:
 layout: post
 author: content/data/authors/jane-doe.yaml
 ---
-## Lorem ipsum
+## CASTRO LEGEND CUP – MTB MARATHON
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+###### 4° EDIZIONE - 10 Ottobre 2021
 
-- Lorem ipsum
-- dolor sit amet
+
+
+*   Lorem ipsum
+*   dolor sit amet
