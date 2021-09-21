@@ -4,9 +4,11 @@ import { FiArrowLeft } from 'react-icons/fi';
 import Router from 'next/router';
 import _ from 'lodash';
 import dayjs from 'dayjs';
-import { withPrefix, markdownify, getData } from '../utils';
+import { withPrefix, getData } from '../utils';
 import 'dayjs/locale/it';
 import { GrFacebook, GrTwitter } from 'react-icons/gr';
+import marked from 'marked';
+import htmlToChakra from '../utils/htmlToChakra';
 
 const PostDetails = ({ post, data }) => {
     const [url, setUrl] = useState('');
@@ -62,7 +64,7 @@ const PostDetails = ({ post, data }) => {
                     <img src={withPrefix(image)} alt={imageAlt} style={{ maxHeight: '300px', objectFit: 'cover', width: '100%' }} />
                 </Box>
             )}
-            {markdownContent && <Box p={5}>{markdownify(markdownContent)}</Box>}
+            {markdownContent && <Box p={5}>{htmlToChakra(marked(markdownContent))}</Box>}
             <Divider my="5" />
             <Flex alignItems="center" pb="10">
                 <Box px={5} flex={1} d="flex" alignItems="center">
