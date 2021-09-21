@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HStack, Tag, Box, chakra, Divider, Heading, Icon, Image, Link, VStack, Flex } from '@chakra-ui/react';
+import { HStack, Tag, Box, chakra, Divider, Heading, Icon, Image, Link, VStack, Flex, Avatar } from '@chakra-ui/react';
 import { FiArrowLeft } from 'react-icons/fi';
 import Router from 'next/router';
 import _ from 'lodash';
@@ -21,7 +21,7 @@ const PostDetails = ({ post, data }) => {
     const tags = tagsRef ? tagsRef.map((t) => getData(data, t)) : [];
     const postAuthorRef = _.get(post, 'author');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
-
+    console.log(author);
     useEffect(() => {
         if (Router.query && window !== 'undefined') {
             setUrl(window.location.href);
@@ -68,7 +68,7 @@ const PostDetails = ({ post, data }) => {
             <Divider my="5" />
             <Flex alignItems="center" pb="10">
                 <Box px={5} flex={1} d="flex" alignItems="center">
-                    <Image h={20} fit="cover" rounded="full" src={`/${author.photo}`} alt="Avatar" />
+                    <Avatar size="lg" src={`${author.photo}`} alt={`${author.first_name}`} />
                     <VStack ml="10px" justifyItems="start" textAlign="start">
                         <Heading fontWeight="semibold" fontSize="medium" color={'gray.400'}>
                             Autore

@@ -2,9 +2,9 @@ import React from 'react';
 import dayjs from 'dayjs';
 import { Box, Link, chakra, HStack, Tag, Flex, Image } from '@chakra-ui/react';
 import 'dayjs/locale/it';
-import { getPageUrl } from '../utils';
+import { getData, getPageUrl } from '../utils';
 
-const PostCard = ({ post, author }) => {
+const PostCard = ({ post, author, tags }) => {
     const postUrl = getPageUrl(post, { withPrefix: true });
 
     return (
@@ -33,9 +33,13 @@ const PostCard = ({ post, author }) => {
                         {dayjs(post.date).locale('it').format('DD MMM YYYY').toUpperCase()}
                     </chakra.span>
                     <HStack spacing={2}>
-                        <Tag size="sm" variant="solid" colorScheme="brand" fontSize="12px">
-                            Articolo
-                        </Tag>
+                        {tags &&
+                            tags.length > 0 &&
+                            tags.map((tag) => (
+                                <Tag key={tag.ID} size="sm" variant="solid" colorScheme="brand" fontSize="12px">
+                                    {tag.title}
+                                </Tag>
+                            ))}
                     </HStack>
                 </Box>
                 <chakra.p mt={4} color={'gray.600'}>

@@ -13,7 +13,9 @@ const PostList = ({ posts, data }) => {
                     {posts.map((post, index) => {
                         const postAuthorRef = _.get(post, 'author');
                         const author = postAuthorRef ? getData(data, postAuthorRef) : null;
-                        return <PostCard key={index} post={post} author={author} />;
+                        const tagsRef = _.get(post, 'tags');
+                        const tags = tagsRef ? tagsRef.map((t) => getData(data, t)).filter((i, index) => index < 3) : [];
+                        return <PostCard key={index} post={post} author={author} tags={tags} />;
                     })}
                 </Grid>
             </Grid>
