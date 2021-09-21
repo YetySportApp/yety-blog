@@ -1,5 +1,5 @@
 ---
-title: Ca
+title: Castro Legend Cup 2021
 subtitle: lorem-ipsum
 date: '2021-09-21'
 excerpt: lorem-ipsum
