@@ -17,6 +17,7 @@ seo:
 tags:
   - content/data/tags/tag-5ysizk17y.json
   - content/data/tags/tag-351chlo6b.json
+  - content/data/tags/tag-rkwiw3adc.json
 layout: post
 author: content/data/authors/jane-doe.yaml
 ---
