@@ -19,6 +19,7 @@ tags:
   - content/data/tags/tag-351chlo6b.json
   - content/data/tags/tag-rkwiw3adc.json
 layout: post
+author: content/data/authors/person-jb701yh3t.json
 ---
 ## CASTRO LEGEND CUP – MTB MARATHON
 
