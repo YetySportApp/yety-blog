@@ -21,6 +21,7 @@ tags:
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
+thumb_image: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
 ---
 ## CASTRO LEGEND CUP – MTB MARATHON
 
