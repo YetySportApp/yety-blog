@@ -1,6 +1,6 @@
 import React from 'react';
 import dayjs from 'dayjs';
-import { Box, Link, chakra, HStack, Tag, Flex, Image } from '@chakra-ui/react';
+import { Box, Link, chakra, HStack, Tag, Flex, Image, Avatar } from '@chakra-ui/react';
 import 'dayjs/locale/it';
 import { getData, getPageUrl } from '../utils';
 
@@ -18,7 +18,7 @@ const PostCard = ({ post, author, tags }) => {
                         borderBottomLeftRadius={{ base: 'none', md: 'lg' }}
                         bgSize="cover"
                         style={{
-                            backgroundImage: `url(/${post.thumb_image})`
+                            backgroundImage: `url(${post.thumb_image})`
                         }}
                     ></Box>
                 </Link>
@@ -48,7 +48,7 @@ const PostCard = ({ post, author, tags }) => {
 
                 <Flex alignItems="center" flexDirection={'column'} pt="2">
                     <Box flex={1} d="flex" alignItems="center" alignSelf={'start'}>
-                        <Image h={10} fit="cover" rounded="full" src={`/${author.photo}`} alt="Avatar" />
+                        <Avatar bg="transparent" size="lg" src={`${author.photo}`} alt={`${author.first_name}`} />
                         <Link mx={2} fontWeight="semibold" color={'gray.600'}>
                             {author.first_name} {author.last_name}
                         </Link>
