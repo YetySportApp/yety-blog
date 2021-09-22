@@ -26,21 +26,14 @@ const PostCard = ({ post, author, tags }) => {
 
             <Box pt={{ md: 12, base: 6 }} pb={6} px={6} maxW={{ base: 'xl', md: '5xl' }} w={{ md: '50%' }}>
                 <chakra.h2 fontSize={{ base: 'large', md: 'x-large' }} color={'brand.500'} fontWeight="bold">
-                    {post.title}
+                    <Link href={postUrl} textDecoration="none">
+                        {post.title}
+                    </Link>
                 </chakra.h2>
                 <Box d="flex" flexDirection="row" justifyContent="space-between" py={2}>
                     <chakra.span color={'gray.800'} fontWeight="semibold" fontSize="small">
                         {dayjs(post.date).locale('it').format('DD MMM YYYY').toUpperCase()}
                     </chakra.span>
-                    <HStack spacing={2}>
-                        {tags &&
-                            tags.length > 0 &&
-                            tags.map((tag) => (
-                                <Tag key={tag.ID} size="sm" variant="solid" colorScheme="brand" fontSize="12px">
-                                    {tag.title}
-                                </Tag>
-                            ))}
-                    </HStack>
                 </Box>
                 <chakra.p mt={4} color={'gray.600'}>
                     {post.excerpt}

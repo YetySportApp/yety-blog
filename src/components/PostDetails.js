@@ -21,7 +21,7 @@ const PostDetails = ({ post, data }) => {
     const tags = tagsRef ? tagsRef.map((t) => getData(data, t)) : [];
     const postAuthorRef = _.get(post, 'author');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
-    console.log(marked(markdownContent));
+
     useEffect(() => {
         if (Router.query && window !== 'undefined') {
             setUrl(window.location.href);
@@ -53,7 +53,7 @@ const PostDetails = ({ post, data }) => {
                     {tags &&
                         tags.length > 0 &&
                         tags.map((tag) => (
-                            <Tag key={tag.ID} size="sm" variant="solid" colorScheme="brand" fontSize="12px">
+                            <Tag key={tag.ID} size="sm" rounded="md" variant="solid" colorScheme="brand" cursor="default">
                                 {tag.title}
                             </Tag>
                         ))}
