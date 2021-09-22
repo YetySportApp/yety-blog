@@ -10,7 +10,7 @@ excerpt: >-
 image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
-  title: ''
+  title: Castro Legend Cup 2021
   description: ''
   robots: []
   extra: []
