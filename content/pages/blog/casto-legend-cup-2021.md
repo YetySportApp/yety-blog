@@ -13,7 +13,11 @@ seo:
   title: Castro Legend Cup 2021
   description: ''
   robots: []
-  extra: []
+  extra:
+    - name: 'og:image'
+      value: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
+      keyName: property
+      relativeUrl: true
 tags:
   - content/data/tags/tag-5ysizk17y.json
   - content/data/tags/tag-351chlo6b.json
