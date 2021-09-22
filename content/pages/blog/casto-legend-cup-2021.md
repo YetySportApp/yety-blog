@@ -38,6 +38,8 @@ I bikers delle categorie juniores e juniores sport (17-18 anni) potranno parteci
 
 Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione esclusivamente richiedendo tramite e-mail all'indirizzo asdcicloclubspongano@gmail.com l'emissione di una tessera giornaliera FCI al costo di **€ 10,00**.
 
-
-
 #### YETY alla Castro Legend Cup
+
+
+
+Yety si occuperà della diretta della gara
