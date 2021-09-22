@@ -18,6 +18,10 @@ seo:
       value: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
       keyName: property
       relativeUrl: true
+    - name: 'og:title'
+      value: Casto Legend Cup
+      keyName: property
+      relativeUrl: false
 tags:
   - content/data/tags/tag-5ysizk17y.json
   - content/data/tags/tag-351chlo6b.json
