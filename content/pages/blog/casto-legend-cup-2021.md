@@ -10,10 +10,18 @@ excerpt: >-
 image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
-  title: ''
+  title: Castro Legend Cup 2021
   description: ''
   robots: []
-  extra: []
+  extra:
+    - name: 'og:image'
+      value: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
+      keyName: property
+      relativeUrl: true
+    - name: 'og:title'
+      value: Casto Legend Cup
+      keyName: property
+      relativeUrl: false
 tags:
   - content/data/tags/tag-5ysizk17y.json
   - content/data/tags/tag-351chlo6b.json
@@ -38,6 +46,8 @@ I bikers delle categorie juniores e juniores sport (17-18 anni) potranno parteci
 
 Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione esclusivamente richiedendo tramite e-mail all'indirizzo asdcicloclubspongano@gmail.com l'emissione di una tessera giornaliera FCI al costo di **€ 10,00**.
 
-
-
 #### YETY alla Castro Legend Cup
+
+
+
+Yety si occuperà della diretta della gara
