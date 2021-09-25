@@ -48,6 +48,7 @@ Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione
 
 #### YETY alla Castro Legend Cup
 
+Dal 7 al 10 ottobre Yety vi farà tuffare in un weekend di sport con la Castro Legend Cup
+Le nostre telecamere seguiranno la competizione e trasmetteranno in diretta le immagini sui canali social ufficiali dell’evento e sul Ledwall in piazza a Castro.
 
-
-Yety si occuperà della diretta della gara
+Ma c’è di più! Yety si occuperà di tutte le attività sportive collaterali l’evento, dando spazio alle tante associazioni sportive che quotidianamente promuovo la bellezza di praticare sport. Sarà possibile partecipare a tour in barca a vela, escursioni nella natura o alla scoperta delle bellezze dei fondali marini.
