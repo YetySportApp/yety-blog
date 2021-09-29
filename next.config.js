@@ -1,7 +1,5 @@
 const sourcebit = require('sourcebit');
-
 const sourcebitConfig = require('./sourcebit.js');
-const { PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD } = require('next/constants');
 
 sourcebit.fetch(sourcebitConfig);
 
@@ -11,7 +9,6 @@ module.exports = (phase) => {
         UPLOAD_ENDPOINT: process.env.UPLOAD_ENDPOINT || 'http://localhost:1337',
         GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT || 'http://localhost:1337/graphql'
     };
-    console.log('ENV', env);
     return {
         env,
         publicRuntimeConfig: env,
