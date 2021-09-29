@@ -1,37 +1,67 @@
 {
-    "title": "Azimuth",
+    "title": "Yety",
     "path_prefix": "/",
     "base_font": "nunito-sans",
     "palette": "blue",
     "header": {
-        "logo_img": "images/logo.svg",
+        "logo_img": "/images/logo-913b9d62.svg",
         "logo_img_alt": "Logo",
         "has_nav": true,
         "nav_links": [
             {
                 "label": "Home",
+                "url": "https://www.yety.it",
+                "style": "link"
+            },
+            {
+                "label": "Esperienze",
+                "url": "https://www.yety.it/ricerca",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false
+            },
+            {
+                "label": "Blog",
                 "url": "/",
-                "style": "link"
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false
             },
             {
-                "label": "Features",
-                "url": "/features",
-                "style": "link"
+                "label": "Vantaggi e Garanzie",
+                "url": "https://www.yety.it/vantaggi-garanzie",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false
             },
             {
-                "label": "Pricing",
-                "url": "/pricing",
-                "style": "link"
+                "label": "YETY per ASD e SSD",
+                "url": "https://www.yety.it/yety-asd-ssd",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false
             },
             {
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            },
-            {
-                "label": "Sign Up",
-                "url": "/signup",
-                "style": "primary"
+                "label": "Assistenza",
+                "url": "https://www.yety.it/assistenza",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false
             }
         ]
     },
@@ -133,5 +163,5 @@
         ],
         "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
     },
-    "domain": "https://yety-blog-6e923.netlify.app"
+    "domain": "https://yety.it/"
 }

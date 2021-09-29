@@ -1,0 +1,72 @@
+name: Build image and deploy
+
+on:
+    push:
+        branches:
+            - develop
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Extract Branch Name from GITHUB_REF
+              shell: bash
+              run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+              id: extract_branch
+
+            - name: Info
+              run: |
+                  echo "Deploying branch ${{ steps.extract_branch.outputs.branch }}"
+
+            - name: Login to dockerhub
+              uses: docker/login-action@v1
+              with:
+                  username: ${{ secrets.DOCKER_HUB_USER }}
+                  password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+            - uses: actions/checkout@v2
+
+            - name: Build the Docker image
+              if: success()
+              id: docker_build
+              run: docker build . --file Dockerfile --tag lorddex/hyety:blog-${{ steps.extract_branch.outputs.branch }}-latest
+
+            - name: Push the Docker image ${{ steps.extract_branch.outputs.branch }}
+              if: success()
+              run: docker push lorddex/hyety:blog-${{ steps.extract_branch.outputs.branch }}-latest
+
+            - name: Install doctl
+              uses: digitalocean/action-doctl@v2
+              with:
+                  token: ${{ secrets.DIGITALOCEAN_TOKEN }}
+
+            - name: Configure kubectl DEV
+              if: github.ref == 'refs/heads/develop'
+              run: |
+                  doctl kubernetes cluster kubeconfig save hyety-k8s-cluster
+
+            - name: Rollout DEV
+              if: github.ref == 'refs/heads/develop'
+              run: |
+                  kubectl --namespace hyety-dev rollout restart deployments
+
+            - name: Remove kubectl conf DEV
+              if: github.ref == 'refs/heads/develop'
+              run: |
+                  doctl kubernetes cluster kubeconfig remove hyety-k8s-cluster
+
+            - name: Configure kubectl PROD
+              if: github.ref == 'refs/heads/master'
+              run: |
+                  doctl kubernetes cluster kubeconfig save hyety-k8s-production-cluster
+
+            - name: Rollout PROD
+              if: github.ref == 'refs/heads/master'
+              run: |
+                  kubectl --namespace hyety-prod rollout restart deployments
+
+            - name: Remove kubectl conf PROD
+              if: github.ref == 'refs/heads/master'
+              run: |
+                  doctl kubernetes cluster kubeconfig remove hyety-k8s-production-cluster
