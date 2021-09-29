@@ -5,7 +5,7 @@ import ProductCardImageCarousel from './ProductCardImageCarousel';
 import Link from 'next/link';
 import { FiMapPin } from 'react-icons/fi';
 import config from '../config/config';
-
+import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 
 const ProductCard = ({ data }) => {
