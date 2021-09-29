@@ -15,7 +15,6 @@ module.exports = (phase) => {
         UPLOAD_ENDPOINT: isDev ? 'http://127.0.0.1:1337' : isStaging ? 'https://app-dev.yety.it' : 'https://www.yety.it',
         GRAPHQL_ENDPOINT: isDev ? 'http://127.0.0.1:1337/graphql' : isStaging ? 'https://app-dev.yety.it/graphql' : 'https://www.yety.it/graphql'
     };
-    console.log(env);
     return {
         env,
         trailingSlash: true,

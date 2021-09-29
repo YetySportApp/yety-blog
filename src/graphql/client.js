@@ -21,7 +21,7 @@ let apolloClient = null;
 
 const createApolloClient = (ctx) => {
     const httpLink = new HttpLink({
-        uri: 'http://localhost:1337/graphql',
+        uri: `${process.env.GRAPHQL_ENDPOINT}`,
         fetch
     });
 
