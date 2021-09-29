@@ -18,6 +18,7 @@ module.exports = (phase) => {
 
     return {
         env,
+        publicRuntimeConfig: env,
         trailingSlash: true,
         devIndicators: {
             autoPrerender: false
