@@ -6,10 +6,6 @@ const { PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD } = require('next/const
 sourcebit.fetch(sourcebitConfig);
 
 module.exports = (phase) => {
-    const isDev = phase === PHASE_DEVELOPMENT_SERVER;
-    const isProd = phase === PHASE_PRODUCTION_BUILD;
-    const isStaging = process.env.STAGING === 1;
-
     const env = {
         PUBLIC_URL: process.env.PUBLIC_URL,
         UPLOAD_ENDPOINT: process.env.UPLOAD_ENDPOINT,

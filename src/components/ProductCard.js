@@ -7,6 +7,7 @@ import { FiMapPin } from 'react-icons/fi';
 import config from '../config/config';
 
 const ProductCard = ({ data }) => {
+    console.log(config);
     return (
         <Box
             bg={useColorModeValue('white', 'gray.800')}
