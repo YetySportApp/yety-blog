@@ -9,7 +9,7 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 
 const ProductCard = ({ data }) => {
-    console.log(config);
+    console.log('CONFIG', config);
     console.log(process.env.GRAPHQL_ENDPOINT);
     console.log(process.env.UPLOAD_ENDPOINT);
     console.log(process.env.PUBLIC_URL);
