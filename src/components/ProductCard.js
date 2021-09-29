@@ -8,6 +8,9 @@ import config from '../config/config';
 
 const ProductCard = ({ data }) => {
     console.log(config);
+    console.log(process.env.GRAPHQL_ENDPOINT);
+    console.log(process.env.UPLOAD_ENDPOINT);
+    console.log(process.env.PUBLIC_URL);
     return (
         <Box
             bg={useColorModeValue('white', 'gray.800')}
