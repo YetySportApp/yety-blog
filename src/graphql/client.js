@@ -4,6 +4,7 @@ import Cookie from 'universal-cookie';
 import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import fetch from 'isomorphic-unfetch';
+import config from '../config/config';
 
 export const APOLLO_STATE_PROPERTY_NAME = '__APOLLO_STATE__';
 export const COOKIES_TOKEN_NAME = 'jwt';
@@ -21,7 +22,7 @@ let apolloClient = null;
 
 const createApolloClient = (ctx) => {
     const httpLink = new HttpLink({
-        uri: `${process.env.GRAPHQL_ENDPOINT}`,
+        uri: config.graphqlEndpoint,
         fetch
     });
 
