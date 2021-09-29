@@ -11,13 +11,13 @@ module.exports = (phase) => {
     const isStaging = process.env.STAGING === 1;
 
     const env = {
-        PUBLIC_URL: isDev ? 'http://127.0.0.1:3006' : isStaging ? 'https://app-dev.yety.it' : 'https://www.yety.it',
-        UPLOAD_ENDPOINT: isDev ? 'http://127.0.0.1:1337' : isStaging ? 'https://app-dev.yety.it' : 'https://www.yety.it',
-        GRAPHQL_ENDPOINT: isDev ? 'http://127.0.0.1:1337/graphql' : isStaging ? 'https://app-dev.yety.it/graphql' : 'https://www.yety.it/graphql'
+        PUBLIC_URL: process.env.PUBLIC_URL,
+        UPLOAD_ENDPOINT: process.env.UPLOAD_ENDPOINT,
+        GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT
     };
-    console.log(JSON.stringify(process.env, null, 2));
-    console.log(` process.env.STAGING ${process.env.STAGING}`);
-    console.log(env);
+
+    console.log(` process.env.PUBLIC_URL ${process.env.PUBLIC_URL}`);
+
     return {
         env,
         trailingSlash: true,
