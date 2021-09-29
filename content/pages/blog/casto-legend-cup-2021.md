@@ -40,7 +40,9 @@ Le nostre telecamere seguiranno la competizione e trasmetteranno in diretta le i
 
 Ma c’è di più! Yety si occuperà di tutte le attività sportive collaterali l’evento, dando spazio alle tante associazioni sportive che quotidianamente promuovo la bellezza di praticare sport. Sarà possibile partecipare a tour in barca a vela, escursioni nella natura o alla scoperta delle bellezze dei fondali marini.
 
-4° EDIZIONE - 10 Ottobre 2021
+
+
+#### 4° EDIZIONE - 10 Ottobre 2021
 
 La **Marathon Città di Castro – sui sentieri del Parco** nasce da un’idea del Ciclo Club Spongano di voler accomunare ad un evento sportivo la valorizzazione del patrimonio naturalistico e storico del **Parco Naturale Regionale “costa Otranto-Leuca e bosco di Tricase**”. In questo contesto è nata una sinergia con l’amministrazione comunale di Castro che sin dal primo momento ha creduto ed investito nella nostra idea, e che ha ospitato la manifestazione contribuendo a farla crescere ogni anno.
 Siamo coscienti che questa sia un’ottima opportunità di crescita turistica ed economica del territorio non solo del Comune di Castro ma anche per i comuni del circondario. Proprio per questo il programma della manifestazione è strutturato per proporre un’offerta turistica focalizzata non solo sull’evento della domenica ma che duri almeno una settimana e che riguarda molte attività outdoor come il trekking, gite in barca, laboratori rivolti a ragazzi.
@@ -52,4 +54,3 @@ Possono partecipare tutti i cittadini italiani e stranieri, d'ambo i sessi, dai 
 I bikers delle categorie juniores e juniores sport (17-18 anni) potranno partecipare unicamente al percorso **Granfondo**.
 
 Gli atleti non affiliati ad alcuna ASD, potranno partecipare alla manifestazione esclusivamente richiedendo tramite e-mail all'indirizzo asdcicloclubspongano@gmail.com l'emissione di una tessera giornaliera FCI al costo di **€ 10,00**.
-
