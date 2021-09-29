@@ -5,9 +5,9 @@ sourcebit.fetch(sourcebitConfig);
 
 module.exports = (phase) => {
     const env = {
-        PUBLIC_URL: process.env.PUBLIC_URL,
-        UPLOAD_ENDPOINT: process.env.UPLOAD_ENDPOINT,
-        GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT
+        PUBLIC_URL: 'https://app-dev.yety.it',
+        UPLOAD_ENDPOINT: 'https://app-dev.yety.it',
+        GRAPHQL_ENDPOINT: 'https://app-dev.yety.it/graphql'
     };
     return {
         env,
