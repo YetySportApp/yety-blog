@@ -7,14 +7,13 @@ import fetch from 'isomorphic-unfetch';
 import config from '../config/config';
 
 export const APOLLO_STATE_PROPERTY_NAME = '__APOLLO_STATE__';
-export const COOKIES_TOKEN_NAME = 'jwt';
 
 const getToken = (req) => {
     let cookie = new Cookie();
     if (req && req.headers && req.headers.cookie) {
         cookie = new Cookie(req.headers.cookie);
     }
-    const token = cookie.get('yety_jwt');
+    const token = cookie.get('hyety_jwt');
     return token;
 };
 
