@@ -2,13 +2,17 @@ import { ChakraProvider } from '@chakra-ui/react';
 import theme from '../theme/theme';
 import '@fontsource/montserrat/latin.css';
 import GlobalStyle from '../theme/GlobalStyles';
-import App from 'next/app';
+import { ApolloProvider } from '@apollo/client';
+import { useApollo } from '../graphql/client';
 
 export default function MyApp({ Component, pageProps }) {
+    const client = useApollo(pageProps);
     return (
-        <ChakraProvider theme={theme}>
-            <GlobalStyle />
-            <Component {...pageProps} />
-        </ChakraProvider>
+        <ApolloProvider client={client}>
+            <ChakraProvider theme={theme}>
+                <GlobalStyle />
+                <Component {...pageProps} />
+            </ChakraProvider>
+        </ApolloProvider>
     );
 }
