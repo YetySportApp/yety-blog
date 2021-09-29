@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HStack, Tag, Box, chakra, Divider, Heading, Icon, Link, VStack, Flex, Avatar } from '@chakra-ui/react';
+import { Stack, HStack, Tag, Box, chakra, Divider, Heading, Icon, Link, VStack, Flex, Avatar } from '@chakra-ui/react';
 import { FiArrowLeft } from 'react-icons/fi';
 import Router from 'next/router';
 import _ from 'lodash';
@@ -59,7 +59,7 @@ const PostDetails = ({ post, data }) => {
                 </chakra.span>
             </Box>
             <Box px={5} d="flex" flexDirection="row">
-                <HStack spacing={2}>
+                <Stack spacing={2} direction={{ sm: 'column', md: 'row' }}>
                     {tags &&
                         tags.length > 0 &&
                         tags.map((tag) => (
@@ -67,7 +67,7 @@ const PostDetails = ({ post, data }) => {
                                 {tag.title}
                             </Tag>
                         ))}
-                </HStack>
+                </Stack>
             </Box>
             {image && (
                 <Box p={5} mt="10px">
