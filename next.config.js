@@ -5,9 +5,9 @@ sourcebit.fetch(sourcebitConfig);
 
 module.exports = (phase) => {
     const env = {
-        PUBLIC_URL: process.env.PUBLIC_URL || 'http://localhost:3006',
-        UPLOAD_ENDPOINT: process.env.UPLOAD_ENDPOINT || 'http://localhost:1337',
-        GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT || 'http://localhost:1337/graphql'
+        PUBLIC_URL: process.env.PUBLIC_URL,
+        UPLOAD_ENDPOINT: process.env.UPLOAD_ENDPOINT,
+        GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT
     };
     return {
         env,
