@@ -16,8 +16,9 @@ module.exports = (phase) => {
         GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT
     };
 
-    console.log(` process.env.PUBLIC_URL ${process.env.PUBLIC_URL}`);
-
+    console.log(`process.env.PUBLIC_URL ${process.env.PUBLIC_URL}`);
+    console.log(`process.env.UPLOAD_ENDPOINT ${process.env.UPLOAD_ENDPOINT}`);
+    console.log(`process.env.GRAPHQL_ENDPOINT ${process.env.GRAPHQL_ENDPOINT}`);
     return {
         env,
         trailingSlash: true,
