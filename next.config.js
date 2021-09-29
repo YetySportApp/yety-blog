@@ -7,8 +7,8 @@ sourcebit.fetch(sourcebitConfig);
 
 module.exports = (phase) => {
     const isDev = phase === PHASE_DEVELOPMENT_SERVER;
-    const isProd = phase === PHASE_PRODUCTION_BUILD && process.env.STAGING !== '1';
-    const isStaging = phase === PHASE_PRODUCTION_BUILD && process.env.STAGING === '1';
+    const isProd = phase === PHASE_PRODUCTION_BUILD;
+    const isStaging = process.env.STAGING === 1;
 
     const env = {
         PUBLIC_URL: isDev ? 'http://127.0.0.1:3006' : isStaging ? 'https://app-dev.yety.it' : 'https://www.yety.it',
