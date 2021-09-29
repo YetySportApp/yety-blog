@@ -9,7 +9,7 @@ const Logo = ({ config }) => {
     const logoImageAlt = _.get(header, 'logo_img_alt');
 
     return (
-        <Link href={'https://www.yety.it'}>
+        <Link href={`${process.env.PUBLIC_URL}`}>
             <Img w="150px" h="50px" objectFit="contain" src={logoImage} alt={logoImageAlt} _hover={{ cursor: 'pointer' }} />
         </Link>
     );
