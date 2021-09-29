@@ -11,7 +11,11 @@ image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
   title: Castro Legend Cup 2021
-  description: ''
+  description: >-
+    Dal 7 al 10 ottobre 2021 Yety vi farà tuffare in un weekend di sport con la
+    Castro Legend Cup
+
+    Le nostre telecamere seguiranno la competizione.
   robots: []
   extra:
     - name: 'og:image'
