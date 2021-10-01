@@ -11,7 +11,7 @@ seo:
       value: Blog
       keyName: property
     - name: 'og:description'
-      value: This is the blog page
+      value: Il blog di Yety
       keyName: property
     - name: 'og:image'
       value: /images/logo-913b9d62.svg
