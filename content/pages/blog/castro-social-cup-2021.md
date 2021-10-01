@@ -11,7 +11,11 @@ seo:
     Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel
     Salento
   robots: []
-  extra: []
+  extra:
+    - name: 'og:title'
+      value: Casto Social Cup
+      keyName: property
+      relativeUrl: false
 tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
