@@ -4,7 +4,7 @@ subtitle: 'Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva n
 date: '2021-10-01'
 excerpt: 'Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel Salento'
 image_alt: castro-social-cup
-thumb_image_alt: lorem-ipsum
+thumb_image_alt: castro-social-cup
 seo:
   title: Castro Social Cup
   description: >-
