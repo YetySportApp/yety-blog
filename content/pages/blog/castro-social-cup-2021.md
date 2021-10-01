@@ -7,7 +7,9 @@ image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
   title: Castro Social Cup
-  description: ''
+  description: >-
+    Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel
+    Salento
   robots: []
   extra: []
 tags: []
