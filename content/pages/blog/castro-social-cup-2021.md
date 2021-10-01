@@ -17,7 +17,7 @@ seo:
       keyName: property
       relativeUrl: false
     - name: 'og:image'
-      value: /images/castro-social-cup.jpg
+      value: /images/castro-social-cup-small.jpg
       keyName: property
       relativeUrl: true
     - name: 'og:description'
