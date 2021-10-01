@@ -24,7 +24,7 @@ seo:
     - name: 'twitter:description'
       value: This is the blog page
     - name: 'twitter:image'
-      value: images/1.jpg
+      value: /images/logo-913b9d62.svg
       relativeUrl: true
 layout: blog
 ---
