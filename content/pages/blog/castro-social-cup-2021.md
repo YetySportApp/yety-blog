@@ -6,7 +6,7 @@ excerpt: 'Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva ne
 image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
-  title: ''
+  title: Castro Social Cup
   description: ''
   robots: []
   extra: []
