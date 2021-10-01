@@ -22,7 +22,7 @@ seo:
     - name: 'twitter:title'
       value: Blog
     - name: 'twitter:description'
-      value: This is the blog page
+      value: Il blog di Yety
     - name: 'twitter:image'
       value: /images/logo-913b9d62.svg
       relativeUrl: true
