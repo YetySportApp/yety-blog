@@ -32,6 +32,7 @@ seo:
       relativeUrl: true
 tags:
   - content/data/tags/tag-351chlo6b.json
+  - content/data/tags/tag-5ysizk17y.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/castro-social-cup.jpg
