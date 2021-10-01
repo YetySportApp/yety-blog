@@ -12,6 +12,7 @@ seo:
   extra: []
 tags: []
 layout: post
+author: content/data/authors/person-jb701yh3t.json
 ---
 ## Lorem ipsum
 
