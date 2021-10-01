@@ -16,6 +16,10 @@ seo:
       value: Casto Social Cup
       keyName: property
       relativeUrl: false
+    - name: 'og:image'
+      value: /images/castro-social-cup.jpg
+      keyName: property
+      relativeUrl: true
 tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
