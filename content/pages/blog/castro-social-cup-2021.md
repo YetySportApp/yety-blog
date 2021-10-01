@@ -1,5 +1,5 @@
 ---
-title: Castro Social Cup 2021
+title: Castro Social Cup 2021 - Instagram Contest
 subtitle: lorem-ipsum
 date: '2021-10-01'
 excerpt: lorem-ipsum
