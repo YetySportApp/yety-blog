@@ -37,7 +37,7 @@ image: /images/castro-social-cup.jpg
 ---
 ## Castro social cup
 
-###### Yety.it lancia il “Castro Social Cup”, il social contest ideato e organizzato in collaborazione con il Ciclo Club Spongano con l’obiettivo di valorizzare lo sport outdoor e la mountainbike. In palio un soggiorno di una notte per due persone nello splendida “Tenuta Sant’Antonio” a Cerfignano (LE), una cena per due da “Isola del Sole” a Castro (LE) e un’esperienza sportiva per due.
+Yety.it lancia il “Castro Social Cup”, il social contest ideato e organizzato in collaborazione con il Ciclo Club Spongano con l’obiettivo di valorizzare lo sport outdoor e la mountainbike. In palio un soggiorno di una notte per due persone nello splendida “Tenuta Sant’Antonio” a Cerfignano (LE), una cena per due da “Isola del Sole” a Castro (LE) e un’esperienza sportiva per due.
 
 Partecipare al social contest è molto semplice, è sufficiente andare sul profilo Instagram di [Yeti.it](www.yety.it) su <https://www.instagram.com/yety.sport>, seguire i profili @yety.sport e @castrolegendcup, condividere il post del contest nelle stories taggando @yety.sport e @castrolegendcup, commentare il post. 
 
