@@ -4,9 +4,10 @@ import { Helmet } from 'react-helmet';
 export default class MyDocument extends Document {
     static async getInitialProps(ctx) {
         const initialProps = await Document.getInitialProps(ctx);
+
         // see https://github.com/nfl/react-helmet#server-usage for more information
         // 'head' was occupied by 'renderPage().head', we cannot use it
-        return { ...initialProps, helmet: Helmet.renderStatic() };
+        return { ...initialProps, helmet: Helmet.renderStatic(), url: ctx.req.url };
     }
 
     // should render on <html>
@@ -29,6 +30,7 @@ export default class MyDocument extends Document {
     render() {
         // if you don't like Helmet but you still want to set properties on body use this
         // const pageProps = _.get(this.props, '__NEXT_DATA__.props.pageProps');
+
         return (
             <Html {...this.helmetHtmlAttrComponents}>
                 <Head>
@@ -42,6 +44,8 @@ export default class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#5bbad5" />
                     <meta name="theme-color" content="#ffffff" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta property="og:url" content={`${this.props.url}`} />
+                    <meta property="og:type" content="article" />
                 </Head>
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
