@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffects, useEffect } from 'react';
 import { Box, Flex, Text, IconButton, Stack, useBreakpointValue, useDisclosure } from '@chakra-ui/react';
 import { CloseIcon } from '@chakra-ui/icons';
 import MobileMenu from './MobileMenu';
@@ -9,9 +9,11 @@ import LoggedOut from './LoggedOut';
 import _ from 'lodash';
 import { FiMenu } from 'react-icons/fi';
 import { getPageUrl } from '../utils';
+import Cookie from 'universal-cookie';
 
 const Header = ({ page, config }) => {
     const { isOpen, onClose, onToggle } = useDisclosure();
+    const [logged, setLogged] = useState(false);
     const configTitle = _.get(config, 'title');
     const header = _.get(config, 'header');
     const hasNav = _.get(header, 'has_nav');
@@ -20,6 +22,13 @@ const Header = ({ page, config }) => {
     const logoImageAlt = _.get(header, 'logo_img_alt');
     const pageTemplate = _.get(page, 'template');
     const pageUrl = _.trim(getPageUrl(page), '/');
+    const cookie = new Cookie();
+    const token = cookie.get('hyety_jwt');
+    useEffect(() => {
+        if (token) {
+            setLogged(true);
+        }
+    }, []);
 
     return (
         <Box pos="sticky" top="0" zIndex={1000} shadow="small">
@@ -38,14 +47,20 @@ const Header = ({ page, config }) => {
                     <Text textAlign={useBreakpointValue({ base: 'center', lg: 'left' })} fontFamily={'heading'} color={'gray.800'}>
                         <Logo config={config} />
                     </Text>
-
                     <Flex display={{ base: 'none', lg: 'flex' }} alignItems="center" justifyContent="center" ml={10} flex="1">
                         {hasNav && !_.isEmpty(navLinks) && <Menu navLinks={navLinks} pageUrl={pageUrl} />}
                     </Flex>
                 </Flex>
 
-                <Stack flex={{ base: 1, lg: 0.3 }} justify={'flex-end'} alignItems="center" direction={'row'} spacing={3}>
-                    <LoggedIn /> <LoggedOut />
+                <Stack
+                    display={{ base: 'none', lg: 'flex' }}
+                    flex={{ base: 1, lg: 0.3 }}
+                    justify={'flex-end'}
+                    alignItems="center"
+                    direction={'row'}
+                    spacing={3}
+                >
+                    {logged ? <LoggedIn callback={() => setLogged(false)} /> : <LoggedOut />}
                 </Stack>
                 <Flex flex={{ base: 1, lg: 'auto' }} justifyContent="flex-end" ml={{ base: -2 }} display={{ base: 'flex', lg: 'none' }}>
                     <IconButton
@@ -55,7 +70,7 @@ const Header = ({ page, config }) => {
                         variant={'ghost'}
                         aria-label={'Toggle Navigation'}
                     />
-                    <MobileMenu onClose={onClose} isOpen={isOpen} menu={[]} />
+                    <MobileMenu onClose={onClose} isOpen={isOpen} menu={navLinks} logged={logged} />
                 </Flex>
             </Flex>
         </Box>

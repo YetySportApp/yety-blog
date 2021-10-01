@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HStack, Tag, Box, chakra, Divider, Heading, Icon, Image, Link, VStack, Flex, Avatar } from '@chakra-ui/react';
+import { Stack, HStack, Tag, Box, chakra, Divider, Heading, Icon, Link, VStack, Flex, Avatar } from '@chakra-ui/react';
 import { FiArrowLeft } from 'react-icons/fi';
 import Router from 'next/router';
 import _ from 'lodash';
@@ -9,9 +9,14 @@ import 'dayjs/locale/it';
 import { GrFacebook, GrTwitter } from 'react-icons/gr';
 import marked from 'marked';
 import htmlToChakra from '../utils/htmlToChakra';
+import { useQuery } from '@apollo/client';
+import { GET_EXPERIENCE_BY_TAG } from '../graphql/queries/getExperiencesByTag';
+import ProductCard from './ProductCard';
 
 const PostDetails = ({ post, data }) => {
     const [url, setUrl] = useState('');
+    const [count, setCount] = useState(0);
+
     const title = _.get(post, 'title');
     const subtitle = _.get(post, 'subtitle');
     const image = _.get(post, 'image');
@@ -21,12 +26,18 @@ const PostDetails = ({ post, data }) => {
     const tags = tagsRef ? tagsRef.map((t) => getData(data, t)) : [];
     const postAuthorRef = _.get(post, 'author');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
-    console.log(marked(markdownContent));
+
+    const { data: gqlData } = useQuery(GET_EXPERIENCE_BY_TAG, { fetchPolicy: 'network-only' });
     useEffect(() => {
         if (Router.query && window !== 'undefined') {
             setUrl(window.location.href);
         }
     }, [Router]);
+    useEffect(() => {
+        if (gqlData && gqlData.eventos) {
+            setCount(gqlData.eventos.length - 1);
+        }
+    }, [gqlData]);
 
     return (
         <div className="postDetails">
@@ -49,15 +60,15 @@ const PostDetails = ({ post, data }) => {
                 </chakra.span>
             </Box>
             <Box px={5} d="flex" flexDirection="row">
-                <HStack spacing={2}>
+                <Stack spacing={2} direction={{ sm: 'column', md: 'row' }}>
                     {tags &&
                         tags.length > 0 &&
                         tags.map((tag) => (
-                            <Tag key={tag.ID} size="sm" variant="solid" colorScheme="brand" fontSize="12px">
+                            <Tag key={tag.ID} size="sm" rounded="md" variant="solid" colorScheme="brand" cursor="default">
                                 {tag.title}
                             </Tag>
                         ))}
-                </HStack>
+                </Stack>
             </Box>
             {image && (
                 <Box p={5} mt="10px">
@@ -66,6 +77,37 @@ const PostDetails = ({ post, data }) => {
             )}
 
             {markdownContent && <Box p={5}>{htmlToChakra(marked(markdownContent))}</Box>}
+
+            {post.__metadata.urlPath === '/blog/casto-legend-cup-2021' && gqlData && gqlData.eventos && gqlData.eventos.length > 0 && (
+                <VStack>
+                    <Box p={5} mt={'10px'} d="flex" justifyContent="center">
+                        <Heading color="secondary.500" p={5} textShadow="-1px -1px 1px rgba(0,0,0,0.3)">
+                            Scopri le attività partner della gara
+                        </Heading>
+                    </Box>
+                    <Flex w="full" px={{ base: '20px', sm: '40px', lg: '80px' }} py="20px" flexWrap="wrap">
+                        {gqlData.eventos.map((evento, index) => {
+                            return (
+                                <Box
+                                    w={{
+                                        base: '100%',
+                                        sm: '100%',
+                                        md: index % 2 === 0 && index === count ? '100%' : '50%',
+                                        lg: index % 2 === 0 && index === count ? '100%' : '50%',
+                                        xl: index % 2 === 0 && index === count ? '100%' : '50%'
+                                    }}
+                                    px={{ base: '4px', xl: '10px', '2xl': '20px' }}
+                                    mb="30px"
+                                    border={0}
+                                    key={`${evento.id}_${evento.slug}`}
+                                >
+                                    <ProductCard data={evento} />
+                                </Box>
+                            );
+                        })}
+                    </Flex>
+                </VStack>
+            )}
 
             <Divider my="5" />
             <Flex alignItems="center" pb="10">

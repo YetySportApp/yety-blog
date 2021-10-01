@@ -11,7 +11,10 @@ RUN npm run build
 
 FROM node:14 as runner
 WORKDIR /app
-ENV NODE_ENV production
+
+ENV PUBLIC_URL="https://www.yety.it"
+ENV UPLOAD_ENDPOINT="https://www.yety.it"
+ENV GRAPHQL_ENDPOINT="https://www.yety.it/graphql"
 # If you are using a custom next.config.js file, uncomment this line.
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public

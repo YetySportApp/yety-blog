@@ -1,6 +1,6 @@
 import React from 'react';
 import dayjs from 'dayjs';
-import { Box, Link, chakra, HStack, Tag, Flex, Image } from '@chakra-ui/react';
+import { Box, Link, chakra, HStack, Tag, Flex, Image, Avatar } from '@chakra-ui/react';
 import 'dayjs/locale/it';
 import { getData, getPageUrl } from '../utils';
 
@@ -18,7 +18,7 @@ const PostCard = ({ post, author, tags }) => {
                         borderBottomLeftRadius={{ base: 'none', md: 'lg' }}
                         bgSize="cover"
                         style={{
-                            backgroundImage: `url(/${post.thumb_image})`
+                            backgroundImage: `url(${post.thumb_image})`
                         }}
                     ></Box>
                 </Link>
@@ -26,21 +26,14 @@ const PostCard = ({ post, author, tags }) => {
 
             <Box pt={{ md: 12, base: 6 }} pb={6} px={6} maxW={{ base: 'xl', md: '5xl' }} w={{ md: '50%' }}>
                 <chakra.h2 fontSize={{ base: 'large', md: 'x-large' }} color={'brand.500'} fontWeight="bold">
-                    {post.title}
+                    <Link href={postUrl} textDecoration="none">
+                        {post.title}
+                    </Link>
                 </chakra.h2>
                 <Box d="flex" flexDirection="row" justifyContent="space-between" py={2}>
                     <chakra.span color={'gray.800'} fontWeight="semibold" fontSize="small">
                         {dayjs(post.date).locale('it').format('DD MMM YYYY').toUpperCase()}
                     </chakra.span>
-                    <HStack spacing={2}>
-                        {tags &&
-                            tags.length > 0 &&
-                            tags.map((tag) => (
-                                <Tag key={tag.ID} size="sm" variant="solid" colorScheme="brand" fontSize="12px">
-                                    {tag.title}
-                                </Tag>
-                            ))}
-                    </HStack>
                 </Box>
                 <chakra.p mt={4} color={'gray.600'}>
                     {post.excerpt}
@@ -48,7 +41,7 @@ const PostCard = ({ post, author, tags }) => {
 
                 <Flex alignItems="center" flexDirection={'column'} pt="2">
                     <Box flex={1} d="flex" alignItems="center" alignSelf={'start'}>
-                        <Image h={10} fit="cover" rounded="full" src={`/${author.photo}`} alt="Avatar" />
+                        <Avatar bg="transparent" size="lg" src={`${author.photo}`} alt={`${author.first_name}`} />
                         <Link mx={2} fontWeight="semibold" color={'gray.600'}>
                             {author.first_name} {author.last_name}
                         </Link>
