@@ -2,7 +2,7 @@
 title: Blog
 seo:
   title: Blog
-  description: This is the blog page
+  description: Il Blog di Yety
   extra:
     - name: 'og:type'
       value: website
