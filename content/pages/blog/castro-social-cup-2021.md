@@ -30,11 +30,14 @@ seo:
       value: /images/castro-social-cup.jpg
       keyName: property
       relativeUrl: true
-tags: []
+tags:
+  - content/data/tags/tag-351chlo6b.json
+  - content/data/tags/tag-5ysizk17y.json
+  - content/data/tags/tag-wf0r8638n.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/castro-social-cup.jpg
-thumb_image: /images/castro-social-cup.jpg
+thumb_image: /images/castro-social-cup-1.jpeg
 ---
 ## Castro social cup
 
