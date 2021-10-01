@@ -26,6 +26,10 @@ seo:
         Salento
       keyName: property
       relativeUrl: false
+    - name: 'twitter:image'
+      value: /images/castro-social-cup.jpg
+      keyName: property
+      relativeUrl: true
 tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
