@@ -70,25 +70,27 @@ const ProductCard = ({ data }) => {
                 <Box d="flex" alignItems="baseline" minH="25px">
                     {data.tags && data.tags.length > 0 && (
                         <HStack spacing="10px" maxW="100%" overflow="hidden">
-                            {data.tags.map((tag, index) => {
-                                return (
-                                    <Badge
-                                        key={`${tag.nome}_${index}`}
-                                        rounded="md"
-                                        px="2"
-                                        py="1"
-                                        borderColor="primary.500"
-                                        borderWidth="1px"
-                                        color="primary.500"
-                                        bg="primary.50"
-                                        fontSize="x-small"
-                                        shadow="lg"
-                                        _hover={{ cursor: 'pointer' }}
-                                    >
-                                        {tag.nome}
-                                    </Badge>
-                                );
-                            })}
+                            {data.tags
+                                .filter((x, i) => i < 3)
+                                .map((tag, index) => {
+                                    return (
+                                        <Badge
+                                            key={`${tag.nome}_${index}`}
+                                            rounded="md"
+                                            px="2"
+                                            py="1"
+                                            borderColor="primary.500"
+                                            borderWidth="1px"
+                                            color="primary.500"
+                                            bg="primary.50"
+                                            fontSize="x-small"
+                                            shadow="lg"
+                                            _hover={{ cursor: 'pointer' }}
+                                        >
+                                            {tag.nome}
+                                        </Badge>
+                                    );
+                                })}
                         </HStack>
                     )}
                 </Box>

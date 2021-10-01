@@ -1,7 +1,7 @@
 import { gql } from '@apollo/client';
 export const GET_EXPERIENCE_BY_TAG = gql`
     query GetExperienceByTag {
-        eventos(where: { tipo: "esperienza", tags: { nome_in: ["Castro Legend Cup"] } }) {
+        eventos(where: { tipo: "esperienza", status: "active", tags: { nome_in: ["Castro Legend Cup"] } }) {
             id
             nome
             slug
