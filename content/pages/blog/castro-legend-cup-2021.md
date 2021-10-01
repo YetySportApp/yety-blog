@@ -19,7 +19,7 @@ seo:
   robots: []
   extra:
     - name: 'og:image'
-      value: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
+      value: /images/CASTRO-LEGEND-CUP-small.jpeg
       keyName: property
       relativeUrl: true
     - name: 'og:title'
