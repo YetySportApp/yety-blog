@@ -3,8 +3,8 @@ title: Castro Social Cup 2021 - Instagram Contest
 subtitle: 'Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel Salento'
 date: '2021-10-01'
 excerpt: 'Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel Salento'
-image_alt: lorem-ipsum
-thumb_image_alt: lorem-ipsum
+image_alt: castro-social-cup
+thumb_image_alt: castro-social-cup
 seo:
   title: Castro Social Cup
   description: >-
@@ -34,6 +34,7 @@ tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/castro-social-cup.jpg
+thumb_image: /images/castro-social-cup.jpg
 ---
 ## Castro social cup
 
