@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Castro Social C
 subtitle: lorem-ipsum
 date: '2021-10-01'
 excerpt: lorem-ipsum
