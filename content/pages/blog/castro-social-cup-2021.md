@@ -36,7 +36,7 @@ tags:
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/castro-social-cup.jpg
-thumb_image: /images/AdobeStock_189591747.jpeg
+thumb_image: /images/castro-social-cup-1.jpeg
 ---
 ## Castro social cup
 
