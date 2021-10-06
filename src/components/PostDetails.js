@@ -78,7 +78,7 @@ const PostDetails = ({ post, data }) => {
 
             {markdownContent && <Box p={5}>{htmlToChakra(marked(markdownContent))}</Box>}
 
-            {post.__metadata.urlPath === '/blog/casto-legend-cup-2021' && gqlData && gqlData.eventos && gqlData.eventos.length > 0 && (
+            {post.__metadata.urlPath === '/blog/castro-legend-cup-2021' && gqlData && gqlData.eventos && gqlData.eventos.length > 0 && (
                 <VStack>
                     <Box p={5} mt={'10px'} d="flex" justifyContent="center">
                         <Heading color="secondary.500" p={5} textShadow="-1px -1px 1px rgba(0,0,0,0.3)">
