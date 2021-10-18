@@ -14,6 +14,7 @@ tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/brindis-in-voga.jpg
+thumb_image: /images/brindis-in-voga.jpg
 ---
 ## Lorem ipsum
 
