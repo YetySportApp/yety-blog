@@ -25,7 +25,7 @@ COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/sourcebit.js ./sourcebit.js
 
 FROM nginx:alpine
-COPY ./.nginx/default.conf /etc/nginx/nginx.conf
+COPY nginx/default.conf /etc/nginx/nginx.conf
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy from the stahg 1
