@@ -12,6 +12,7 @@ seo:
   extra: []
 tags:
   - content/data/tags/tag-351chlo6b.json
+  - content/data/tags/tag-1sab5qwuj.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/brindis-in-voga.jpg
