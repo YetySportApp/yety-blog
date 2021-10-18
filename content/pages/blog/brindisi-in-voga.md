@@ -13,6 +13,7 @@ seo:
 tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
+image: /images/245352221_3115937382063617_1093252455067912679_n.jpg
 ---
 ## Lorem ipsum
 
