@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Brindisi in Voga
 subtitle: lorem-ipsum
 date: '2021-10-16'
 excerpt: lorem-ipsum
