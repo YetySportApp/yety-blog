@@ -3,7 +3,7 @@ title: Brindisi in Voga
 subtitle: lorem-ipsum
 date: '2021-10-16'
 excerpt: ' Domenica 17 Ottobre le acque di Brindisi ospitano la prima edizione di “Brindisi in Voga - uiandu rrenta arrenta alla banchina”, un evento inclusivo dedicato a tutte le associazioni sportive e non solo che praticano attività in mare, proposto da Asd Vogatori Remuri Brindisi e Circolo Remiero Brindisi, che rientra nella programmazione del Salone Nautico di Puglia.'
-image_alt: lorem-ipsum
+image_alt: Brindisi in voga
 thumb_image_alt: lorem-ipsum
 seo:
   title: ''
