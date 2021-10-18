@@ -10,7 +10,8 @@ seo:
   description: ''
   robots: []
   extra: []
-tags: []
+tags:
+  - content/data/tags/tag-351chlo6b.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/brindis-in-voga.jpg
