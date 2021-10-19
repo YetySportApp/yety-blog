@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
 
         // see https://github.com/nfl/react-helmet#server-usage for more information
         // 'head' was occupied by 'renderPage().head', we cannot use it
-        return { ...initialProps, helmet: Helmet.renderStatic(), url: ctx.req.url };
+        return { ...initialProps, helmet: Helmet.renderStatic(), url: ctx.req.url || '' };
     }
 
     // should render on <html>
