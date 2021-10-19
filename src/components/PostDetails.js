@@ -9,7 +9,7 @@ import 'dayjs/locale/it';
 import { GrFacebook, GrTwitter } from 'react-icons/gr';
 import marked from 'marked';
 import htmlToChakra from '../utils/htmlToChakra';
-import { useQuery } from '@apollo/client';
+import { useLazyQuery, useQuery } from '@apollo/client';
 import { GET_EXPERIENCE_BY_TAG } from '../graphql/queries/getExperiencesByTag';
 import ProductCard from './ProductCard';
 
@@ -27,7 +27,12 @@ const PostDetails = ({ post, data }) => {
     const postAuthorRef = _.get(post, 'author');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
 
-    const { data: gqlData } = useQuery(GET_EXPERIENCE_BY_TAG, { fetchPolicy: 'network-only' });
+    const [getExperiences, { data: gqlData }] = useLazyQuery(GET_EXPERIENCE_BY_TAG, { fetchPolicy: 'network-only' });
+    useEffect(() => {
+        if (post.__metadata.urlPath === '/blog/castro-legend-cup-2021') {
+            getExperiences();
+        }
+    }, []);
     useEffect(() => {
         if (Router.query && window !== 'undefined') {
             setUrl(window.location.href);
