@@ -22,6 +22,7 @@ layout: post
 image: /images/Running.jpeg
 thumb_image: /images/Running.jpeg
 author: content/data/authors/person-jb701yh3t.json
+video: 'https://www.youtube.com/embed/gvz9l3L4F1Y'
 ---
 ### Nardò si tinge di rosa&#xA;
 
