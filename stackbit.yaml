@@ -401,7 +401,7 @@ models:
             - tag
         label: Tags
         description: The tags of the post
-      - name: ''
+      - name: video
         type: string
     folder: blog
     labelField: title
