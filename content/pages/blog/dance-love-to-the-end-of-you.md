@@ -9,7 +9,7 @@ excerpt: >-
   stimoli in grado di arricchire il modo di abitare il corpo, di far vivere il
   movimento, amplificandone la sensibilità che gli è propria. 
 image_alt: yogalabs
-thumb_image_alt: lorem-ipsum
+thumb_image_alt: yogalabs
 seo:
   title: ''
   description: ''
