@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Nardò – Street workout in rosa
 subtitle: lorem-ipsum
 date: '2021-10-21'
 excerpt: lorem-ipsum
