@@ -25,6 +25,7 @@ const PostDetails = ({ post, data }) => {
     const tagsRef = _.get(post, 'tags');
     const tags = tagsRef ? tagsRef.map((t) => getData(data, t)) : [];
     const postAuthorRef = _.get(post, 'author');
+    const video = _.get(post, 'video');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
 
     const [getExperiences, { data: gqlData }] = useLazyQuery(GET_EXPERIENCE_BY_TAG, { fetchPolicy: 'network-only' });
@@ -82,6 +83,19 @@ const PostDetails = ({ post, data }) => {
             )}
 
             {markdownContent && <Box p={5}>{htmlToChakra(marked(markdownContent))}</Box>}
+            {video && (
+                <Box p={5} d="flex" justifyContent="center">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src={video}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </Box>
+            )}
 
             {post.__metadata.urlPath === '/blog/castro-legend-cup-2021' && gqlData && gqlData.eventos && gqlData.eventos.length > 0 && (
                 <VStack>
