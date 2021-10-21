@@ -3,39 +3,40 @@ title: Castro Legend Cup 2021
 subtitle: MTB Marathon
 date: '2021-09-21'
 excerpt: >-
-  La Marathon Città di Castro – sui sentieri del Parco nasce da un’idea del
-  Ciclo Club Spongano di voler accomunare ad un evento sportivo la
-  valorizzazione del patrimonio naturalistico e storico del Parco Naturale
-  Regionale “costa Otranto-Leuca e bosco di Tricase”.
+    La Marathon Città di Castro – sui sentieri del Parco nasce da un’idea del
+    Ciclo Club Spongano di voler accomunare ad un evento sportivo la
+    valorizzazione del patrimonio naturalistico e storico del Parco Naturale
+    Regionale “costa Otranto-Leuca e bosco di Tricase”.
 image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
-  title: Castro Legend Cup 2021
-  description: >-
-    Dal 7 al 10 ottobre 2021 Yety vi farà tuffare in un weekend di sport con la
-    Castro Legend Cup
+    title: Castro Legend Cup 2021
+    description: >-
+        Dal 7 al 10 ottobre 2021 Yety vi farà tuffare in un weekend di sport con la
+        Castro Legend Cup
 
-    Le nostre telecamere seguiranno la competizione.
-  robots: []
-  extra:
-    - name: 'og:image'
-      value: /images/CASTRO-LEGEND-CUP-small.jpeg
-      keyName: property
-      relativeUrl: true
-    - name: 'og:title'
-      value: Casto Legend Cup
-      keyName: property
-      relativeUrl: false
+        Le nostre telecamere seguiranno la competizione.
+    robots: []
+    extra:
+        - name: 'og:image'
+          value: /images/CASTRO-LEGEND-CUP-small.jpeg
+          keyName: property
+          relativeUrl: true
+        - name: 'og:title'
+          value: Casto Legend Cup
+          keyName: property
+          relativeUrl: false
 tags:
-  - content/data/tags/tag-5ysizk17y.json
-  - content/data/tags/tag-351chlo6b.json
-  - content/data/tags/tag-rkwiw3adc.json
-  - content/data/tags/tag-wf0r8638n.json
+    - content/data/tags/tag-5ysizk17y.json
+    - content/data/tags/tag-351chlo6b.json
+    - content/data/tags/tag-rkwiw3adc.json
+    - content/data/tags/tag-wf0r8638n.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
 thumb_image: /images/CASTRO-LEGEND-CUP-1200x611.jpeg
 ---
+
 ## CASTRO LEGEND CUP – MTB MARATHON
 
 #### YETY alla Castro Legend Cup
