@@ -19,6 +19,7 @@ tags:
 layout: post
 image: /images/Running.jpeg
 thumb_image: /images/Running.jpeg
+author: content/data/authors/person-jb701yh3t.json
 ---
 ### Nardò si tinge di rosa&#xA;
 
