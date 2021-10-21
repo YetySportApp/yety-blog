@@ -17,6 +17,7 @@ seo:
 tags: []
 layout: post
 image: /images/Running.jpeg
+thumb_image: /images/Running.jpeg
 ---
 ## Lorem ipsum
 
