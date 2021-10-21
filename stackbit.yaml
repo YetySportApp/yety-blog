@@ -402,7 +402,7 @@ models:
         label: Tags
         description: The tags of the post
       - name: video
-        type: string
+        type: url
     folder: blog
     labelField: title
   section:
