@@ -1,6 +1,6 @@
 ---
 title: Nardò – Street workout in rosa
-subtitle: lorem-ipsum
+subtitle: '"Nardò si tinge di rosa'
 date: '2021-10-21'
 excerpt: lorem-ipsum
 image_alt: lorem-ipsum
