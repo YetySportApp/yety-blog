@@ -15,9 +15,8 @@ seo:
   robots: []
   extra: []
 tags:
-  - content/data/tags/tag-u8nl57m9k.json
-  - content/data/tags/tag-1sep5fv2i.json
-  - content/data/tags/tag-lksxpz58u.json
+  - content/data/tags/tag-rdkfec83g.json
+  - content/data/tags/tag-dkvbgyiac.json
 layout: post
 image: /images/Running.jpeg
 thumb_image: /images/Running.jpeg
