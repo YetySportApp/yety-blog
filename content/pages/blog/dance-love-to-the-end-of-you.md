@@ -16,7 +16,6 @@ seo:
   robots: []
   extra: []
 tags:
-  - content/data/tags/tag-pp64cbj70.json
   - content/data/tags/tag-u8nl57m9k.json
   - content/data/tags/tag-ou8e97jax.json
 layout: post
