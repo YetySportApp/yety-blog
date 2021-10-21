@@ -8,7 +8,7 @@ excerpt: >-
   promozione del territorio e delle sue peculiari bellezze architettoniche,
   ambientali e paesaggistiche.   E noi di Yety non potevamo che supportarlo! 
 image_alt: nardo-rosa
-thumb_image_alt: lorem-ipsum
+thumb_image_alt: nardo-rosa
 seo:
   title: ''
   description: ''
