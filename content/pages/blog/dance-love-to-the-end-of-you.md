@@ -18,6 +18,7 @@ seo:
 tags: []
 layout: post
 author: content/data/authors/person-jb701yh3t.json
+image: /images/yogalabs.jpg
 ---
 ## Lorem ipsum
 
