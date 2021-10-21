@@ -1,12 +1,12 @@
-# FROM node:14 as dependencies
-# WORKDIR /app
-# COPY package.json ./
-# RUN npm install 
+FROM node:14 as dependencies
+WORKDIR /app
+COPY package.json ./
+RUN npm install 
 
 FROM node:14 as builder
 WORKDIR /app
 COPY . .
-# COPY --from=dependencies /app/node_modules ./node_modules
+COPY --from=dependencies /app/node_modules ./node_modules
 RUN npm run build
 
 FROM node:14 as runner
@@ -15,7 +15,7 @@ WORKDIR /app
 ENV PUBLIC_URL="https://www.yety.it"
 ENV UPLOAD_ENDPOINT="https://www.yety.it"
 ENV GRAPHQL_ENDPOINT="https://www.yety.it/graphql"
-RUN npm install --global pm2
+# RUN npm install --global pm2
 # If you are using a custom next.config.js file, uncomment this line.
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
@@ -27,4 +27,4 @@ COPY --from=builder /app/.sourcebit-nextjs-cache.json ./.sourcebit-nextjs-cache.
 
 EXPOSE 3000
 USER node
-CMD [ "pm2-runtime", "npm", "--", "start" ]
+CMD [ "npm","run","start"]
