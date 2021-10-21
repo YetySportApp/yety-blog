@@ -17,6 +17,7 @@ seo:
   extra: []
 tags:
   - content/data/tags/tag-pp64cbj70.json
+  - content/data/tags/tag-u8nl57m9k.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/yogalabs.jpg
