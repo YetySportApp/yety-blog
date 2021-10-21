@@ -8,7 +8,7 @@ excerpt: >-
   come uno spazio nuovo dove l’assenza del contatto fisico è stata colmata da
   stimoli in grado di arricchire il modo di abitare il corpo, di far vivere il
   movimento, amplificandone la sensibilità che gli è propria. 
-image_alt: lorem-ipsum
+image_alt: yogalabs
 thumb_image_alt: lorem-ipsum
 seo:
   title: ''
