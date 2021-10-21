@@ -1,12 +1,12 @@
-FROM node:14 as dependencies
-WORKDIR /app
-COPY package.json ./
-RUN npm install 
+# FROM node:14 as dependencies
+# WORKDIR /app
+# COPY package.json ./
+# RUN npm install 
 
 FROM node:14 as builder
 WORKDIR /app
 COPY . .
-COPY --from=dependencies /app/node_modules ./node_modules
+# COPY --from=dependencies /app/node_modules ./node_modules
 RUN npm run build
 
 FROM node:14 as runner
