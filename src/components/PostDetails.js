@@ -9,7 +9,7 @@ import 'dayjs/locale/it';
 import { GrFacebook, GrTwitter } from 'react-icons/gr';
 import marked from 'marked';
 import htmlToChakra from '../utils/htmlToChakra';
-import { useQuery } from '@apollo/client';
+import { useLazyQuery, useQuery } from '@apollo/client';
 import { GET_EXPERIENCE_BY_TAG } from '../graphql/queries/getExperiencesByTag';
 import ProductCard from './ProductCard';
 
@@ -25,9 +25,15 @@ const PostDetails = ({ post, data }) => {
     const tagsRef = _.get(post, 'tags');
     const tags = tagsRef ? tagsRef.map((t) => getData(data, t)) : [];
     const postAuthorRef = _.get(post, 'author');
+    const video = _.get(post, 'video');
     const author = postAuthorRef ? getData(data, postAuthorRef) : null;
 
-    const { data: gqlData } = useQuery(GET_EXPERIENCE_BY_TAG, { fetchPolicy: 'network-only' });
+    const [getExperiences, { data: gqlData }] = useLazyQuery(GET_EXPERIENCE_BY_TAG, { fetchPolicy: 'network-only' });
+    useEffect(() => {
+        if (post.__metadata.urlPath === '/blog/castro-legend-cup-2021') {
+            getExperiences();
+        }
+    }, []);
     useEffect(() => {
         if (Router.query && window !== 'undefined') {
             setUrl(window.location.href);
@@ -77,6 +83,19 @@ const PostDetails = ({ post, data }) => {
             )}
 
             {markdownContent && <Box p={5}>{htmlToChakra(marked(markdownContent))}</Box>}
+            {video && (
+                <Box p={5} d="flex" justifyContent="center">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src={video}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </Box>
+            )}
 
             {post.__metadata.urlPath === '/blog/castro-legend-cup-2021' && gqlData && gqlData.eventos && gqlData.eventos.length > 0 && (
                 <VStack>

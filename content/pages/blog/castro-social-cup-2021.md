@@ -6,8 +6,22 @@ excerpt: 'Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva ne
 image_alt: castro-social-cup
 thumb_image_alt: castro-social-cup
 seo:
-    title: Castro Social Cup
-    description: >-
+  title: Castro Social Cup
+  description: >-
+    Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel
+    Salento
+  robots: []
+  extra:
+    - name: 'og:title'
+      value: Casto Social Cup
+      keyName: property
+      relativeUrl: false
+    - name: 'og:image'
+      value: /images/castro-social-cup-small.jpg
+      keyName: property
+      relativeUrl: true
+    - name: 'og:description'
+      value: >-
         Partecipa e vinci un soggiorno, una cena e un’esperienza sportiva nel
         Salento
     robots: []

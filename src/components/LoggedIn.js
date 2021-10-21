@@ -18,7 +18,7 @@ const LoggedIn = ({ callback }) => {
                             {data.me.nome} {data.me.cognome}
                         </Text>
                     </VStack>
-                    <Avatar size={'sm'} src={`${config.uploadsEndpoint}${data.me.foto.url}`} />
+                    <Avatar size={'sm'} src={`${config.uploadsEndpoint}${data.me.foto.url || ''}`} />
 
                     <Box display={{ base: 'none', md: 'flex' }}>
                         <FiChevronDown color={'white'} bg="red" />

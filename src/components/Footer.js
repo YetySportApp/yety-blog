@@ -42,7 +42,7 @@ export default function LargeWithLogoLeft({ config }) {
                                                 color: 'primary.500'
                                             }}
                                         >
-                                            <Link href={menuItem.url}>{menuItem.label}</Link>
+                                            <Link href={menuItem.url || ''}>{menuItem.label}</Link>
                                         </Box>
                                     </Box>
                                 );
