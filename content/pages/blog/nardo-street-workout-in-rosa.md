@@ -7,7 +7,7 @@ excerpt: >-
   promozione dello sport e del benessere, ma anche alla valorizzazione e
   promozione del territorio e delle sue peculiari bellezze architettoniche,
   ambientali e paesaggistiche.   E noi di Yety non potevamo che supportarlo! 
-image_alt: nardo-
+image_alt: nardo-rosa
 thumb_image_alt: lorem-ipsum
 seo:
   title: ''
