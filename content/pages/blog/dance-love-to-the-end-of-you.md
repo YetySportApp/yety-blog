@@ -15,7 +15,8 @@ seo:
   description: ''
   robots: []
   extra: []
-tags: []
+tags:
+  - content/data/tags/tag-pp64cbj70.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/yogalabs.jpg
