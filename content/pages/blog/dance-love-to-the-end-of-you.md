@@ -25,9 +25,7 @@ thumb_image: /images/yogalabs.jpg
 ---
 ### Dance Love to the End of You
 
-
-
-"Dance Love to the End of You" è il titolo di un progetto di Yogalabs, centro Yoga di Nardò, che ha preso vita durante i mesi di lockdown e si è presentato come uno spazio nuovo dove l’assenza del contatto fisico è stata colmata da stimoli in grado di arricchire il modo di abitare il corpo, di far vivere il movimento, amplificandone la sensibilità che gli è propria. 
+Yogalabs, centro Yoga di Nardò, ospita "Dance Love to the End of You" progetto di Francesca Foscarini nato durante i mesi di lockdown e si è presentato come uno spazio nuovo dove l’assenza del contatto fisico è stata colmata da stimoli in grado di arricchire il modo di abitare il corpo, di far vivere il movimento, amplificandone la sensibilità che gli è propria. 
 
 
 La lezione di sabato 23 ottobre, accanto a momenti di movimento guidati o liberi, si arricchisce di stimoli sonori come ascolti e letture, materiali visivi come fotografie, dipinti e video, ma anche di pratiche di esplorazione e ricerca che utilizzano la scrittura automatica e il disegno spontaneo, come modi “altri” per estendere le possibilità espressive del corpo in movimento. 
@@ -40,7 +38,7 @@ Gli incontri sono aperti a tutti coloro che hanno interesse all’esplorazione d
 Prenota l’esperienza su yety > <https://www.yety.it/esperienza/dance-love-to-the-end-of-you-1/56>
 
 
-L’ospite della giornata sarà Francesca Foscarini, danzatrice, coreografa e insegnante. Il suo percorso formativo è segnato dall'incontro con maestri molto importanti della scena internazionale (Yasmeen Godder, Sara Wiktorowicz, Iris Erez, Emio Greco, Roberto Castello) con i quali ha avuto modo di approfondire il linguaggio della danza contemporanea e dell'improvvisazione, arricchendo e personalizzando il suo linguaggio espressivo e interpretativo. 
+Francesca Foscarini, danzatrice, coreografa e insegnante. Il suo percorso formativo è segnato dall'incontro con maestri molto importanti della scena internazionale (Yasmeen Godder, Sara Wiktorowicz, Iris Erez, Emio Greco, Roberto Castello) con i quali ha avuto modo di approfondire il linguaggio della danza contemporanea e dell'improvvisazione, arricchendo e personalizzando il suo linguaggio espressivo e interpretativo. 
 
 
 
