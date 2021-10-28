@@ -9,7 +9,7 @@ excerpt: >-
 image_alt: kite_gallipoli
 thumb_image_alt: kite_gallipoli
 seo:
-  title: ''
+  title: Campionati Kitefoil e Wingfoil a Gallipoli
   description: ''
   robots: []
   extra: []
