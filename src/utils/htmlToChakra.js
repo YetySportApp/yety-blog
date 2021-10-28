@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
-import { Heading, Link, chakra } from '@chakra-ui/react';
+import { Heading, Link, chakra, Box, Image } from '@chakra-ui/react';
 
 const htmlToChakra = (html) => {
     if (!html) {
@@ -51,6 +51,12 @@ const htmlToChakra = (html) => {
                             <Link href={`${node.attribs.href}`} color="brand.500">
                                 {node.children[0].data}
                             </Link>
+                        );
+                    case 'img':
+                        return (
+                            <Box d="flex" w="100%" justifyContent="center">
+                                <Image src={`${node.attribs.src}`} maxW="60%" objectFit="contain" alt="alt" />
+                            </Box>
                         );
                 }
             }
