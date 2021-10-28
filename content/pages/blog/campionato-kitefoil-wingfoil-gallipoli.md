@@ -6,7 +6,7 @@ excerpt: >-
   I campionati nazionali di Kitefoil e Wingfoil fanno tappa a Gallipoli. 
   L’Ottava tappa del Campionato Italiano KiteFoil sarà un evento all’insegna
   dell’ecologia, della sostenibilità ambientale e…dello sport. 
-image_alt: lorem-ipsum
+image_alt: kite_gallipoli
 thumb_image_alt: lorem-ipsum
 seo:
   title: ''
