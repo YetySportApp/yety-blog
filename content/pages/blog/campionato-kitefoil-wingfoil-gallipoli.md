@@ -3,7 +3,7 @@ title: Campionato Kitefoil Wingfoil gallipoli
 subtitle: I campionati nazionali di Kitefoil e Wingfoil fanno tappa a Gallipoli
 date: '2021-10-28'
 excerpt: >-
-  I campionati nazionali di Kitefoil e Wingfoil fanno tappa a Gallipoli 
+  I campionati nazionali di Kitefoil e Wingfoil fanno tappa a Gallipoli. 
   L’Ottava tappa del Campionato Italiano KiteFoil sarà un evento all’insegna
   dell’ecologia, della sostenibilità ambientale e…dello sport. 
 image_alt: lorem-ipsum
