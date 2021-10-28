@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Campionato Kitefoil wingfoil gallipoli
 subtitle: lorem-ipsum
 date: '2021-10-28'
 excerpt: lorem-ipsum
