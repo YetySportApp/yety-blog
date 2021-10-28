@@ -1,5 +1,5 @@
 ---
-title: Cs kitefoil Gallipoli
+title: CS kitefoil Gallipoli
 sections: []
 seo:
   title: ''
