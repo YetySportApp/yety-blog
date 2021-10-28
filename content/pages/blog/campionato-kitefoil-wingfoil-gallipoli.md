@@ -13,7 +13,8 @@ seo:
   description: ''
   robots: []
   extra: []
-tags: []
+tags:
+  - content/data/tags/tag-iho5lnk3k.json
 video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
