@@ -1,6 +1,6 @@
 ---
 title: Campionato Kitefoil Wingfoil gallipoli
-subtitle: lorem-ipsum
+subtitle: I campionati nazionali di Kitefoil e Wingfoil fanno tappa a Gallipoli
 date: '2021-10-28'
 excerpt: lorem-ipsum
 image_alt: lorem-ipsum
