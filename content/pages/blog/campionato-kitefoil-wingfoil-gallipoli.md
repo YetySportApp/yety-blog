@@ -28,6 +28,7 @@ seo:
       relativeUrl: true
 tags:
   - content/data/tags/tag-iho5lnk3k.json
+  - content/data/tags/tag-oyfa8hgkr.json
 video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
