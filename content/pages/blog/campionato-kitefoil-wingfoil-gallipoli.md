@@ -18,6 +18,7 @@ video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/kite_gallipoli.jpg
+thumb_image: /images/kite_gallipoli.jpg
 ---
 ## Lorem ipsum
 
