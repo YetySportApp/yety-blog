@@ -22,6 +22,10 @@ seo:
       value: /images/kite_gallipoli.jpg
       keyName: property
       relativeUrl: true
+    - name: 'twitter:image'
+      value: /images/kite_gallipoli.jpg
+      keyName: property
+      relativeUrl: true
 tags:
   - content/data/tags/tag-iho5lnk3k.json
 video: 'https://example.com'
