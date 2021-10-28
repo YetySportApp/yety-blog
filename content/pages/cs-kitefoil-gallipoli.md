@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Cs kitefoil Gallipoli
 sections: []
 seo:
   title: ''
