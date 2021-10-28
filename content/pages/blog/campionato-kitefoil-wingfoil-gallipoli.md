@@ -17,7 +17,11 @@ seo:
     L’Ottava tappa del Campionato Italiano KiteFoil sarà un evento all’insegna
     dell’ecologia, della sostenibilità ambientale e…dello sport. 
   robots: []
-  extra: []
+  extra:
+    - name: 'og:image'
+      value: /images/kite_gallipoli.jpg
+      keyName: property
+      relativeUrl: true
 tags:
   - content/data/tags/tag-iho5lnk3k.json
 video: 'https://example.com'
