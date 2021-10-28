@@ -17,7 +17,6 @@ tags: []
 video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
-image: /images/IMG_6554.jpg
 ---
 ## Lorem ipsum
 
