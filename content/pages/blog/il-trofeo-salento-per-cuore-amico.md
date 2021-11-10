@@ -11,7 +11,7 @@ excerpt: >-
 image_alt: overfishing-salento
 thumb_image_alt: overfishing-salento
 seo:
-  title: ''
+  title: Il tro
   description: ''
   robots: []
   extra: []
