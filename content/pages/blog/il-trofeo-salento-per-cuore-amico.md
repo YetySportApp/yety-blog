@@ -1,6 +1,6 @@
 ---
 title: Il Trofeo Salento per  Cuore Amico
-subtitle: lorem-ipsum
+subtitle: Trofeo Salento
 date: '2021-11-10'
 excerpt: lorem-ipsum
 image_alt: lorem-ipsum
