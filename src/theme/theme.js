@@ -74,7 +74,8 @@ const theme = extendTheme({
         global: (props) => ({
             body: {
                 fontFamily: 'body',
-                bg: mode('white', 'white')(props)
+                bg: mode('white', 'white')(props),
+                color: mode('black', 'black')(props)
             }
         })
     }
