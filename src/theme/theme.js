@@ -1,4 +1,5 @@
 import { extendTheme, ThemeConfig } from '@chakra-ui/react';
+import { mode } from '@chakra-ui/theme-tools';
 
 const config = {
     useSystemColorMode: false,
@@ -68,6 +69,14 @@ const theme = extendTheme({
     fonts: {
         heading: 'Montserrat',
         body: 'Montserrat'
+    },
+    styles: {
+        global: (props) => ({
+            body: {
+                fontFamily: 'body',
+                bg: mode('white', 'white')(props)
+            }
+        })
     }
 });
 export default theme;
