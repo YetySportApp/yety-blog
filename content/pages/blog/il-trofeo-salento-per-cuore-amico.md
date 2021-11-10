@@ -20,6 +20,7 @@ video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/over-fishing-salento.jpeg
+thumb_image: /images/over-fishing-salento.jpeg
 ---
 ## Lorem ipsum
 
