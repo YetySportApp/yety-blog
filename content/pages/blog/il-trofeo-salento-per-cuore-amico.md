@@ -24,6 +24,10 @@ seo:
       value: /images/over-fishing-salento.jpeg
       keyName: property
       relativeUrl: true
+    - name: 'og:title'
+      value: Il Trofeo Salento per  Cuore Amico
+      keyName: property
+      relativeUrl: false
 tags:
   - content/data/tags/tag-zfwpiu0q3.json
   - content/data/tags/tag-oyfa8hgkr.json
