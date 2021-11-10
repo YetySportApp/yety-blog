@@ -15,7 +15,8 @@ seo:
   description: ''
   robots: []
   extra: []
-tags: []
+tags:
+  - content/data/tags/tag-zfwpiu0q3.json
 video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
