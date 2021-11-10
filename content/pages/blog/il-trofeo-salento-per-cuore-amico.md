@@ -12,7 +12,12 @@ image_alt: overfishing-salento
 thumb_image_alt: overfishing-salento
 seo:
   title: Il tro
-  description: ''
+  description: >-
+    Il Trofeo Salento, organizzato per la prima volta il 4 marzo 1988 è giunto
+    quest’anno alla 33^ edizione e grazie a questa manifestazione l'Agonismo nel
+    Salento è nato e cresciuto sino a poter affermare con orgoglio che, oggi,
+    nel Salento ci sono tanti Campioni che si distinguono in campo nazionale ed
+    internazionale.
   robots: []
   extra: []
 tags:
