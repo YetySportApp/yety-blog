@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Il "Trofeo Salento" per  Cuore Amico
 subtitle: lorem-ipsum
 date: '2021-11-10'
 excerpt: lorem-ipsum
