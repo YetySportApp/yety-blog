@@ -8,7 +8,7 @@ excerpt: >-
   Salento è nato e cresciuto sino a poter affermare con orgoglio che, oggi, nel
   Salento ci sono tanti Campioni che si distinguono in campo nazionale ed
   internazionale.
-image_alt: lorem-ipsum
+image_alt: overfishing
 thumb_image_alt: lorem-ipsum
 seo:
   title: ''
