@@ -9,7 +9,7 @@ excerpt: >-
   Salento ci sono tanti Campioni che si distinguono in campo nazionale ed
   internazionale.
 image_alt: overfishing-salento
-thumb_image_alt: lorem-ipsum
+thumb_image_alt: overfishing-salento
 seo:
   title: ''
   description: ''
