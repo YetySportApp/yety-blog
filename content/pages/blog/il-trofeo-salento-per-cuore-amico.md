@@ -2,7 +2,12 @@
 title: Il Trofeo Salento per  Cuore Amico
 subtitle: Trofeo Salento
 date: '2021-11-10'
-excerpt: lorem-ipsum
+excerpt: >-
+  Il Trofeo Salento, organizzato per la prima volta il 4 marzo 1988 è giunto
+  quest’anno alla 33^ edizione e grazie a questa manifestazione l'Agonismo nel
+  Salento è nato e cresciuto sino a poter affermare con orgoglio che, oggi, nel
+  Salento ci sono tanti Campioni che si distinguono in campo nazionale ed
+  internazionale.
 image_alt: lorem-ipsum
 thumb_image_alt: lorem-ipsum
 seo:
