@@ -13,6 +13,7 @@ seo:
 tags: []
 video: 'https://example.com'
 layout: post
+author: content/data/authors/person-jb701yh3t.json
 ---
 ## Lorem ipsum
 
