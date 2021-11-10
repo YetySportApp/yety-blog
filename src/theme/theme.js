@@ -68,6 +68,14 @@ const theme = extendTheme({
     fonts: {
         heading: 'Montserrat',
         body: 'Montserrat'
+    },
+    styles: {
+        global: (props) => ({
+            body: {
+                fontFamily: 'body',
+                bg: mode('white', 'white')(props)
+            }
+        })
     }
 });
 export default theme;
