@@ -48,7 +48,7 @@ author: content/data/authors/person-jb701yh3t.json
 image: /images/over-fishing-salento.jpeg
 thumb_image: /images/over-fishing-salento.jpeg
 ---
-Il** Trofeo Salento**, organizzato per la prima volta il 4 marzo 1988 è giunto quest’anno alla 33^ edizione e grazie a questa manifestazione l'Agonismo nel Salento è nato e cresciuto sino a poter affermare con orgoglio che, oggi, nel Salento ci sono tanti Campioni che si distinguono in campo nazionale ed internazionale. Il Trofeo Salento è l'unica manifestazione che cerca di avvicinarsi al vero “spirito libero” degli appassionati di "Surf Casting" ed è l’unica manifestazione che consente ancora di capire le dinamiche e le nozioni di base di questa disciplina.
+Il "Trofeo Salento", organizzato per la prima volta il 4 marzo 1988 è giunto quest’anno alla 33^ edizione e grazie a questa manifestazione l'Agonismo nel Salento è nato e cresciuto sino a poter affermare con orgoglio che, oggi, nel Salento ci sono tanti Campioni che si distinguono in campo nazionale ed internazionale. Il Trofeo Salento è l'unica manifestazione che cerca di avvicinarsi al vero “spirito libero” degli appassionati di "Surf Casting" ed è l’unica manifestazione che consente ancora di capire le dinamiche e le nozioni di base di questa disciplina.
 
 L’evoluzione e la crescita delle tecniche di pesca, anche con le nuove regole, non possono prescindere dalla conoscenza dell’ambiente in cui svolgiamo le nostre attività agonistiche, il rischio potrebbe essere una involuzione tecnica per i nostri Campioni.
 
