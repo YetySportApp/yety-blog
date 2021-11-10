@@ -17,6 +17,7 @@ seo:
   extra: []
 tags:
   - content/data/tags/tag-zfwpiu0q3.json
+  - content/data/tags/tag-oyfa8hgkr.json
 video: 'https://example.com'
 layout: post
 author: content/data/authors/person-jb701yh3t.json
