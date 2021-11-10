@@ -32,6 +32,10 @@ seo:
       value: articolo
       keyName: property
       relativeUrl: false
+    - name: 'twitter:title'
+      value: Il Trofeo Salento per  Cuore Amico
+      keyName: name
+      relativeUrl: false
 tags:
   - content/data/tags/tag-zfwpiu0q3.json
   - content/data/tags/tag-oyfa8hgkr.json
