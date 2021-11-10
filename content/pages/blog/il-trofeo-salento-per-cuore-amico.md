@@ -19,7 +19,11 @@ seo:
     nel Salento ci sono tanti Campioni che si distinguono in campo nazionale ed
     internazionale.
   robots: []
-  extra: []
+  extra:
+    - name: 'og:image'
+      value: /images/over-fishing-salento.jpeg
+      keyName: property
+      relativeUrl: true
 tags:
   - content/data/tags/tag-zfwpiu0q3.json
   - content/data/tags/tag-oyfa8hgkr.json
