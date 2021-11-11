@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { Helmet } from 'react-helmet';
+import { ColorModeScript } from '@chakra-ui/react';
 
 export default class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -49,6 +50,7 @@ export default class MyDocument extends Document {
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
                     <script src="/js/plugins.js" />
+                    <ColorModeScript initialColorMode={'light'} />
                     <NextScript />
                 </body>
             </Html>
