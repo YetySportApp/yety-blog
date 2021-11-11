@@ -49,6 +49,7 @@ export default class MyDocument extends Document {
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
                     <script src="/js/plugins.js" />
+                    <ColorModeScript initialColorMode={'light'} />
                     <NextScript />
                 </body>
             </Html>
