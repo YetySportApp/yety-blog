@@ -13,7 +13,6 @@ const ProductCardImageCarousel = ({ gallery }) => {
             <Flex w="full" h="100%" pos="relative" onMouseEnter={onToggle} onMouseLeave={onToggle} border="none">
                 <Flex w="full" pos="relative" ml={`-${currentSlide * 100}%`}>
                     {gallery.map((slide, sid) => {
-                        console.log(slide);
                         return (
                             <Box key={`slide-${sid}-${slide.id}`} boxSize="full" shadow="md" flex="none">
                                 <Image

@@ -6,19 +6,20 @@ excerpt: ' Domenica 17 Ottobre le acque di Brindisi ospitano la prima edizione d
 image_alt: Brindisi in voga
 thumb_image_alt: Brindisi in voga
 seo:
-  title: ''
-  description: ''
-  robots: []
-  extra: []
+    title: ''
+    description: ''
+    robots: []
+    extra: []
 tags:
-  - content/data/tags/tag-351chlo6b.json
-  - content/data/tags/tag-1sab5qwuj.json
-  - content/data/tags/tag-5tquqo9lj.json
+    - content/data/tags/tag-351chlo6b.json
+    - content/data/tags/tag-1sab5qwuj.json
+    - content/data/tags/tag-5tquqo9lj.json
 layout: post
 author: content/data/authors/person-jb701yh3t.json
 image: /images/brindis-in-voga.jpg
 thumb_image: /images/brindis-in-voga.jpg
 ---
+
 Domenica 17 Ottobre le acque di Brindisi ospitano la prima edizione di “Brindisi in Voga - uiandu rrenta arrenta alla banchina”, un evento inclusivo dedicato a tutte le associazioni sportive e non solo che praticano attività in mare, proposto da Asd Vogatori Remuri Brindisi e Circolo Remiero Brindisi, che rientra nella programmazione del Salone Nautico di Puglia.
 
 Una parata di imbarcazioni, lance a remi, schifarieddi, canoe, kajak, barche a vela, sup, surf, tavole di ogni genere e sub nelle acque del porto medio.
