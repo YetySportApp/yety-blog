@@ -22,6 +22,9 @@ const GlobalStyle = () => {
                 .postDetails p {
                     padding: 5px 0;
                 }
+                body {
+                    color: #000;
+                }
             `}
         />
     );
